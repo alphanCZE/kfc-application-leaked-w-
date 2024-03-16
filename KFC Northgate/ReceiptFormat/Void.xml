@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<receipt>
+  <matrix label="Txn No.   :">
+     {{ transaction_number }} 
+  </matrix>
+  <matrix label="Txn Type  :">
+     {{ transaction_type }} 
+  </matrix>
+  <matrix label="Txn Date  :">
+     {{ transaction_date }} 
+  </matrix>
+  <matrix label="Subtotal  :">
+     {{ subtotal }} 
+  </matrix>
+  <matrix label="Discount  :">
+     {{ discount }} 
+  </matrix>
+  <matrix label="Total     :">
+     {{ total }} 
+  </matrix>
+  <matrix label="Reason    :">
+     {{ void_reason }} 
+  </matrix>
+ 
+</receipt>

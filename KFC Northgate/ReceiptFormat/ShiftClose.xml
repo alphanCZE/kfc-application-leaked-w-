@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<receipt>
+  <matrix label="Initial Cash Fund:">
+     {{ initial_cash }} 
+  </matrix>
+  <matrix label="Add-Total Tendered:">
+     {{ total_tendered }}
+  </matrix>
+  <matrix label="Add-Total Other Income:">
+     {{ total_other_income }}
+  </matrix>
+  <matrix label="Add-KPP Deposit Amount:">
+    {{ kpp_deposit_amount }}
+  </matrix>
+  <matrix label="Add-CPP Deposit Amount:">
+    {{ cpp_deposit_amount }}
+  </matrix>
+  <matrix label="Add-GC Sold:">
+    {{ gc_sold }}
+  </matrix>
+  <matrix label="Less-CPP Used Dep Amount:">
+     {{ cpp_used_dep_amount }}
+  </matrix>
+  <matrix label="Less-KPP Used Dep Amount:">
+     {{ kpp_used_dep_amount }}
+  </matrix>
+  <matrix label="Less-Total Cash Pickup:">
+    {{ total_cash_pickup }}
+  </matrix>
+  <matrix label="Less-Total Txn Void:">
+     {{ total_txn_void }}
+  </matrix>
+    <matrix label="Less-Del Change:">
+     {{ total_delivery_change }}
+  </matrix>
+  <matrix label="Less-GC Redeemed:">
+    {{ gc_redeemed }}
+  </matrix>
+  <matrix label="Less-Globe Redeemed:">
+    {{ globe_redeemed }}
+  </matrix>
+  <matrix label="Less-CC Amount:">
+    {{ cc_amount }}
+  </matrix>
+  <matrix label="Less-DC Amount:">
+    {{ dc_amount }}
+  </matrix>
+  <matrix label="Less-VAT Exempt:">
+    {{ vat_exempt }}
+  </matrix>
+  <matrix label="Expected Cash:">
+    {{ expected_cash }}
+  </matrix>
+  <matrix label="Actual Cash on drawer:">
+    {{ cash_on_drawer }}
+  </matrix>
+  <matrix label="Overage:" optional="true">
+    {{ overage }}
+  </matrix>
+  <matrix label="Shortage:" optional="true">
+    {{ shortage }}
+  </matrix>
+  <matrix label="Total Cash for Deposit:">
+    {{ total_cash_for_deposit }}
+  </matrix>
+</receipt>

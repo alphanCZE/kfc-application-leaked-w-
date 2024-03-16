@@ -1,0 +1,47 @@
+[Status] : Start up at 17:27:21
+-----------------------
+[Error] : Message : Unable to find the requested .Net Framework Data Provider.  It may not be installed. 
+ StackTrace :    at System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   at POS.DataAccess.Layer.DBConnectionFactory..ctor(String connectionName)
+   at POS.Class.POSDBConnection.ConnectOnline() at 17:27:21
+-----------------------
+[Status] : Connection not available. Couldn't verify POS version.SQL logic error or missing database
+no such table: pos-version_update_settings   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLite3.cs:line 1006
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 376
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 383
+   at System.Data.SQLite.SQLiteDataReader.NextResult() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 1247
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 113
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 801
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 662
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at POS.Class.POSDbCommand.ExecuteReader()
+   at POS.DataAccess.Layer.VersionUpdateRepository.IsNewlyUpdated() at 17:27:21
+-----------------------
+[Status] : Openning required connections at 17:27:21
+-----------------------
+[Status] : Openned 0 number of connections at 17:27:21
+-----------------------
+[Status] : Started loading components at 17:27:21
+-----------------------
+[Status] : Finished loading components at 17:27:22
+-----------------------
+[Error] : Message : Object reference not set to an instance of an object. 
+ StackTrace :    at POS.Class.POSDBConnection.GetNewOnlineConnection() at 17:27:22
+-----------------------
+[Error] : Message : Unable to find the requested .Net Framework Data Provider.  It may not be installed. 
+ StackTrace :    at System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   at POS.DataAccess.Layer.DBConnectionFactory..ctor(String connectionName)
+   at POS.Class.POSDBConnection.CreateConnection()
+   at POS.Class.POSDBConnection.GetOnlineConnection(Int32& identifier) at 17:27:22
+-----------------------
+[Error] : Message : Unable to find the requested .Net Framework Data Provider.  It may not be installed. 
+ StackTrace :    at POS.Class.POSDBConnection.GetOnlineConnection(Int32& identifier)
+   at POS.DataAccess.Layer.KitchenDisplaySystemRepository._initializeConnection() at 17:27:22
+-----------------------
+[Error] : Message : Could not load file or assembly 'Microsoft.PointOfService, Version=1.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) 
+ StackTrace :    at POS.Hardware.FusionPrinter..ctor(String logicalName, Boolean printerAsync)
+   at POS.Hardware.POSPrinterManager..ctor() at 17:27:24
+-----------------------
+[Error] : Message : Object reference not set to an instance of an object. 
+ StackTrace :    at POS.Hardware.POSPrinterManager.CheckStatus() at 17:27:24
+-----------------------

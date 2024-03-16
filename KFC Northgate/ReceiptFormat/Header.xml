@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<receipt>
+  <div style="center"> {{ store_name }} </div>
+  <div style="center"> {{ company_name }} </div>
+  <div style="center"> {{ address_1 }} </div>
+  <div style="center"> {{ address_2 }} </div>
+  <div style="center"> TIN {{ tin_no }} VAT REG </div>
+  <div style="center"> BIR ACC# {{ bir_acc_no }} </div>
+  <div style="center"> POS# {{ pos_terminal }}  SN:TEMPORARY </div>
+</receipt>

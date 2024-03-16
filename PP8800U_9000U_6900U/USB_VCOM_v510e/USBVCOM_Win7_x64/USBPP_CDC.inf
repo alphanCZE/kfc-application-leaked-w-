@@ -1,0 +1,184 @@
+;----------------------------------------------------------------------------
+;	POSIFLEX USB to UART Cable Driver
+;	Copyright (c) 2011, Posiflex Technology Inc.
+;----------------------------------------------------------------------------
+[Version]
+Signature="$Windows NT$"
+Class=Ports
+ClassGuid={4D36E978-E325-11CE-BFC1-08002BE10318}
+Provider=%MfgName%
+CatalogFile=pp9cdc.cat
+DriverVer=12/28/2011,5.1.0.7600
+;LayoutFile=layout.inf
+
+;----------------------------------------------------------------------------
+;	Manufacturer and Product Information
+;----------------------------------------------------------------------------
+[ControlFlags]
+ExcludeFromSelect=USB\VID_0D3A&PID_3332
+ExcludeFromSelect=USB\VID_0D3A&PID_0339
+ExcludeFromSelect=USB\VID_0D3A&PID_036A
+ExcludeFromSelect=USB\VID_0D3A&PID_036C
+ExcludeFromSelect=USB\VID_0D3A&PID_036E
+ExcludeFromSelect=USB\VID_0D3A&PID_036F
+ExcludeFromSelect=USB\VID_0D3A&PID_0220
+ExcludeFromSelect=USB\VID_0D3A&PID_0230
+ExcludeFromSelect=USB\VID_0D3A&PID_0270
+ExcludeFromSelect=USB\VID_0D3A&PID_0330
+ExcludeFromSelect=USB\VID_0D3A&PID_0368
+ExcludeFromSelect=USB\VID_0D3A&PID_0352
+ExcludeFromSelect=USB\VID_0D3A&PID_036C
+
+[Manufacturer]
+%MfgName%=DeviceList,NTamd64
+
+[DeviceList]
+%DeviceDesc1%=ComPort.NTx86, USB\VID_0D3A&PID_3332
+%DeviceDesc2%=ComPort.NTx86, USB\VID_0D3A&PID_0339
+%DeviceDesc3%=ComPort.NTx86, USB\VID_0D3A&PID_036A
+%DeviceDesc3C%=ComPort.NTx86, USB\VID_0D3A&PID_036C
+%DeviceDesc3E%=ComPort.NTx86, USB\VID_0D3A&PID_036E
+%DeviceDesc3F%=ComPort.NTx86, USB\VID_0D3A&PID_036F
+%DeviceDesc42%=ComPort.NTx86, USB\VID_0D3A&PID_0220
+%DeviceDesc43%=ComPort.NTx86, USB\VID_0D3A&PID_0230
+%DeviceDesc4%=ComPort.NTx86, USB\VID_0D3A&PID_0270
+%DeviceDesc5%=ComPort.NTx86, USB\VID_0D3A&PID_0330
+%DeviceDesc6%=ComPort.NTx86, USB\VID_0D3A&PID_0368
+%DeviceDesc7%=ComPort.NTx86, USB\VID_0D3A&PID_0352
+%DeviceDesc8%=ComPort.NTx86, USB\VID_0D3A&PID_036C
+
+[DeviceList.NTamd64]
+%DeviceDesc1%=ComPort.NTamd64, USB\VID_0D3A&PID_3332
+%DeviceDesc2%=ComPort.NTamd64, USB\VID_0D3A&PID_0339
+%DeviceDesc3%=ComPort.NTamd64, USB\VID_0D3A&PID_036A
+%DeviceDesc3C%=ComPort.NTamd64, USB\VID_0D3A&PID_036C
+%DeviceDesc3E%=ComPort.NTamd64, USB\VID_0D3A&PID_036E
+%DeviceDesc3F%=ComPort.NTamd64, USB\VID_0D3A&PID_036F
+%DeviceDesc42%=ComPort.NTamd64, USB\VID_0D3A&PID_0220
+%DeviceDesc43%=ComPort.NTamd64, USB\VID_0D3A&PID_0230
+%DeviceDesc4%=ComPort.NTamd64, USB\VID_0D3A&PID_0270
+%DeviceDesc5%=ComPort.NTamd64, USB\VID_0D3A&PID_0330
+%DeviceDesc6%=ComPort.NTamd64, USB\VID_0D3A&PID_0368
+%DeviceDesc7%=ComPort.NTamd64, USB\VID_0D3A&PID_0352
+%DeviceDesc8%=ComPort.NTamd64, USB\VID_0D3A&PID_036C
+
+[DestinationDirs]
+DefaultDestDir=12
+ComPort.CopyFiles=12
+
+[SourceDisksFiles.x86]
+pp9cdc.sys=1
+
+[SourceDisksFiles.amd64]
+pp9cdc.sys=1
+
+[SourceDisksNames]
+1=%INSTDISK%,,,
+
+;----------------------------------------------------------------------------
+;	Windows 2000/XP/Vista/Win7 32-bit Sections
+;----------------------------------------------------------------------------
+[ComPort.NTx86]
+CopyFiles=ComPort.CopyFiles
+AddReg=ComPort.AddReg
+
+include=mdmcpq.inf
+CopyFiles=FakeModemCopyFileSection
+;----------------------------------------------------------------------------
+[ComPort.NTx86.Services]
+include=mdmcpq.inf
+AddService = usbser,0x00000002,UsbSerService
+AddService = serenum,,SerEnumService
+AddService = pp9cdc,,pp9cdcService
+
+;----------------------------------------------------------------------------
+[ComPort.NTx86.HW]
+AddReg=ComPort.NTx86.HW.AddReg
+
+[ComPort.NTx86.HW.AddReg]
+HKR,,"UpperFilters",0x00010000,"pp9cdc"
+HKR,,"UpperFilters",0x00010008,"serenum"
+
+;----------------------------------------------------------------------------
+;	Windows XP 64-bit/Vista 64-bit /Win7 64-bit Sections
+;----------------------------------------------------------------------------
+[ComPort.NTamd64]
+CopyFiles=ComPort.CopyFiles
+AddReg=ComPort.AddReg
+
+include=mdmcpq.inf
+CopyFiles=FakeModemCopyFileSection
+;----------------------------------------------------------------------------
+[ComPort.NTamd64.Services]
+include=mdmcpq.inf
+AddService = usbser,0x00000002,UsbSerService
+AddService = serenum,,SerEnumService
+AddService = pp9cdc,,pp9cdcService
+
+;----------------------------------------------------------------------------
+[ComPort.NTamd64.HW]
+AddReg=ComPort.NTamd64.HW.AddReg
+
+[ComPort.NTamd64.HW.AddReg]
+HKR,,"UpperFilters",0x00010000,"pp9cdc"
+HKR,,"UpperFilters",0x00010008,"serenum"
+
+;----------------------------------------------------------------------------
+;	Common CopyFiles, Registry, and Service Sections
+;----------------------------------------------------------------------------
+[ComPort.CopyFiles]
+pp9cdc.sys,,,2
+
+;----------------------------------------------------------------------------
+[ComPort.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,usbser.sys
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
+
+;----------------------------------------------------------------------------
+[UsbSerService]
+DisplayName    = %UsbSer.SvcDesc%
+ServiceType    = 1                       ;SERVICE_KERNEL_DRIVER
+StartType      = 3                       ;SERVICE_DEMAND_START
+ErrorControl   = 1                       ;SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\usbser.sys
+LoadOrderGroup = Base
+
+[SerEnumService]
+DisplayName    = %SerEnum.SvcDesc%
+ServiceType    = 1                       ;SERVICE_KERNEL_DRIVER
+StartType      = 3                       ;SERVICE_DEMAND_START
+ErrorControl   = 1                       ;SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\serenum.sys
+LoadOrderGroup = PNP Filter
+
+[pp9cdcService]
+DisplayName    = %pp9cdc.SvcDesc%
+ServiceType    = 1                       ;SERVICE_KERNEL_DRIVER
+StartType      = 3                       ;SERVICE_DEMAND_START
+ErrorControl   = 1                       ;SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\pp9cdc.sys
+LoadOrderGroup = PNP Filter
+
+;----------------------------------------------------------------------------
+;	String Definitions
+;----------------------------------------------------------------------------
+[Strings]
+MfgName="Posiflex Technology Inc"
+DeviceDesc1="Posiflex PP9000 USB Printer"
+DeviceDesc2="Posiflex PP8800 USB Printer"
+DeviceDesc3="Posiflex PP6900 USB Printer"
+DeviceDesc3C="Posiflex XP3inch USB Printer"
+DeviceDesc3E="Posiflex HS3inch USB Printer"
+DeviceDesc3F="Posiflex HS2inch USB Printer"
+DeviceDesc42="Posiflex PD2800 USB Display"
+DeviceDesc43="Posiflex PD320 USB Display"
+DeviceDesc4="Posiflex PD6207 USB Display"
+DeviceDesc5="Posiflex PP8000 USB Printer"
+DeviceDesc6="Posiflex PP6800 USB Printer"
+DeviceDesc7="Posiflex PP5200 USB Printer"
+DeviceDesc8="Posiflex XP3-USB Printer"
+INSTDISK="USB Printer CDC Driver Installation Disc"
+UsbSer.SvcDesc="Microsoft USB Serial Driver"
+SerEnum.SvcDesc="Serenum Filter Driver"
+pp9cdc.SvcDesc="Posiflex PP/PD CDC Control Driver"

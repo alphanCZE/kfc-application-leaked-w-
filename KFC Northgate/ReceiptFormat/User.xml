@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<receipt>
+  <div> RTM       : {{ rtm_name }} </div>
+  <div> MANAGER   : {{ manager_name }} </div>
+</receipt>

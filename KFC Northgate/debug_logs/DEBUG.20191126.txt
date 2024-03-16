@@ -1,0 +1,2053 @@
+[Status] : Start up at 3:53:44 PM
+-----------------------
+[Status] : Set time : time 2019/11/26 7:53:49.0 at 3:53:49 PM
+-----------------------
+[Status] : 172.29.138.69 at 3:53:49 PM
+-----------------------
+[Error] : Message : SQL logic error or missing database
+no such table: pos-system_configuration_master 
+ StackTrace :    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLite3.cs:line 1006
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 376
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 383
+   at System.Data.SQLite.SQLiteDataReader.NextResult() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 1247
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 113
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 801
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 662
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at POS.Class.POSDbCommand.ExecuteReader()
+   at POS.SystemConfiguration.getSystemConfigurationSettings()
+   at POS.SystemConfiguration..ctor() at 3:53:51 PM
+-----------------------
+[Status] : Connection not available. Couldn't verify POS version.SQL logic error or missing database
+no such table: pos-system_configuration_master   at POS.SystemConfiguration..ctor()
+   at POS.SystemConfiguration.get_Instance()
+   at POS.DataAccess.Layer.VersionUpdateRepository.IsNewlyUpdated() at 3:53:51 PM
+-----------------------
+[Error] : Message : SQL logic error or missing database
+no such table: pos-system_configuration_master 
+ StackTrace :    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLite3.cs:line 1006
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 376
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 383
+   at System.Data.SQLite.SQLiteDataReader.NextResult() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 1247
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 113
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 801
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 662
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at POS.Class.POSDbCommand.ExecuteReader()
+   at POS.SystemConfiguration.getSystemConfigurationSettings()
+   at POS.SystemConfiguration..ctor() at 3:53:51 PM
+-----------------------
+[Status] : Syncing Server to local : ifForced True at 3:53:51 PM
+-----------------------
+[Status] : Done caching table at 3:53:51 PM
+-----------------------
+[Error] : Message : SQL logic error or missing database
+no such table: pos-series_number 
+ StackTrace :    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLite3.cs:line 1006
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 376
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 383
+   at System.Data.SQLite.SQLiteDataReader.NextResult() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 1247
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 113
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 801
+   at System.Data.SQLite.SQLiteCommand.ExecuteScalar(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 879
+   at System.Data.SQLite.SQLiteCommand.ExecuteScalar() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 866
+   at POS.DBSync.CheckIfThereAreRowsToPush() at 3:53:51 PM
+-----------------------
+[Error] : Message : SQL logic error or missing database
+no such table: pos-series_number 
+ StackTrace :    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLite3.cs:line 1006
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 376
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 383
+   at System.Data.SQLite.SQLiteDataReader.NextResult() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 1247
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 113
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 801
+   at System.Data.SQLite.SQLiteCommand.ExecuteScalar(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 879
+   at System.Data.SQLite.SQLiteCommand.ExecuteScalar() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 866
+   at POS.DBSync.CheckIfThereAreRowsToPush() at 3:53:51 PM
+-----------------------
+[Status] : Pusing unsynced transactions. at 3:53:51 PM
+-----------------------
+[Error] : Message : SQL logic error or missing database
+no such table: pos-system_configuration_master 
+ StackTrace :    at POS.SystemConfiguration..ctor()
+   at POS.SystemConfiguration.get_Instance()
+   at POS.ViewModel.Form.POSMainWindowViewModel.Bootup() at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-series_number  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-business_date  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-business_date_logs  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-grand_total_monitor  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-grand_total_monitor_logs  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-ges_sequence  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-version_update_logs  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-party_package_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-party_payment_type_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE party-party_headers  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE party-party_details  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_store_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-pricing_type_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-daypart_store_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE entities-employee_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE entities-user_employee_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE entities-store_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE entities-employee_position_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE entities-employee_card_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE admin-role_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-component_group_product_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_component_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-component_group_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-daypart_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-food_type_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_bom_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_category_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_category_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_pricing_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_type_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_transaction_type_group_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE bcode_product_payment_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-cash_post_type_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-discount_type_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-payment_type_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_type_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_type_group_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE entities-user_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-gc_type_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-gc_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-other_income_type_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-void_reason_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_size_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-component_upgrade_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE menu-component_upgrade_pricing_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-pos_terminal_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-module_authentication_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-module_authentication_store_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE kds-monitor_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE kds-request_type_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE kds-request_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE kds-pos_terminals  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-view_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-home_products  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-promo_product_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-promo_cash_post_type_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-promo_payment_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-dualscreen_configuration_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-dualscreen_configuration_store_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-barcode_product_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-gcash_config_matrix  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-system_configuration_master  at 3:53:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-system_configuration_store_matrix  at 3:53:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-series_number at 3:53:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-business_date at 3:53:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-business_date_logs at 3:53:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-grand_total_monitor at 3:53:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-grand_total_monitor_logs at 3:53:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-ges_sequence at 3:53:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-version_update_logs at 3:53:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-party_package_master at 3:53:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-party_payment_type_master at 3:53:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM party-party_headers at 3:53:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM party-party_details at 3:53:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_store_matrix at 3:53:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-pricing_type_master at 3:53:53 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-daypart_store_matrix at 3:53:53 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM entities-employee_master at 3:53:53 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM entities-user_employee_matrix at 3:53:53 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM entities-store_master at 3:53:59 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM entities-employee_position_master at 3:53:59 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM entities-employee_card_matrix at 3:54:00 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM admin-role_master at 3:54:00 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_master at 3:54:00 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-component_group_product_matrix at 3:54:01 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_component_matrix at 3:54:01 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-component_group_master at 3:54:05 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-daypart_master at 3:54:05 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-food_type_master at 3:54:05 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_bom_matrix at 3:54:05 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_category_matrix at 3:54:40 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_category_master at 3:54:41 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_pricing_matrix at 3:54:41 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_type_master at 3:54:49 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_transaction_type_group_matrix at 3:54:49 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM bcode_product_payment_matrix at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-cash_post_type_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-discount_type_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-payment_type_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-transaction_type_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-transaction_type_group_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM entities-user_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-gc_type_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-gc_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-other_income_type_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-void_reason_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_size_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-component_upgrade_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-component_upgrade_pricing_matrix at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-pos_terminal_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-module_authentication_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-module_authentication_store_matrix at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM kds-monitor_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM kds-request_type_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM kds-request_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM kds-pos_terminals at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-view_master at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-home_products at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-promo_product_matrix at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-promo_cash_post_type_matrix at 3:54:50 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-promo_payment_matrix at 3:54:51 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-dualscreen_configuration_master at 3:54:51 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-dualscreen_configuration_store_matrix at 3:54:51 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-barcode_product_matrix at 3:54:51 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-gcash_config_matrix at 3:54:51 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-system_configuration_master at 3:54:51 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-system_configuration_store_matrix at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_headers  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_combo_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_product_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_discount_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_cash_monitor  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_void_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_gc_sold_void_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_gc_redeemed_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_gc_redeemed_headers  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_discount_headers  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_discount_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_gc_sold_headers  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_gc_sold_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_service_time_logs  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_product_void_logs  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_promo_redeemed_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_other_income_headers  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_credit_card_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-party_transaction_headers  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-party_transaction_matrix  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_ges_redeemed_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_loyalty_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_drivethru_headers  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_drivethru_product_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_drivethru_combo_details  at 3:54:51 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_authentication_logs  at 3:54:51 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-trans_count at 3:54:52 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-initial_cash at 3:54:52 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_change_types_debit at 3:54:52 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-other_income_types_debit at 3:54:52 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_change_debit at 3:54:52 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-scd_discounts at 3:54:52 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-other_income_debit at 3:54:52 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-delivery_change_debit at 3:54:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_sold_debit at 3:54:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_redeemed_debit at 3:54:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_rewards_debit at 3:54:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_rewards_discount_debit at 3:54:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_rewards_discount_debit at 3:54:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_rewards_debit at 3:54:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_promo_debit at 3:54:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_promo_discount_debit at 3:54:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_redeemed_debit at 3:54:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-credit_card_debit at 3:54:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-debit_card_debit at 3:54:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_exempt_amount_debit at 3:54:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_exempt_sales_amount_debit at 3:54:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-delivery_income_debit at 3:54:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-zero_rated_sales_debit at 3:54:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-zero_rated_sales_discount_debit at 3:54:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_earned_debit at 3:54:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_discount_debit at 3:54:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_product_redemption_discount_debit at 3:54:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode1_product_redemption_discount_debit at 3:54:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode2_product_redemption_discount_debit at 3:54:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeRF_product_redemption_discount_debit at 3:54:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeST_product_redemption_discount_debit at 3:54:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_cc_redemption_discount_debit at 3:54:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_qr_redemption_discount_debit at 3:54:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode_sb_redemption_discount_debit at 3:54:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-grabpay_redemption_discount_debit at 3:54:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_product_redemption_debit at 3:54:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode1_product_redemption_debit at 3:54:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode2_product_redemption_debit at 3:54:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeRF_product_redemption_debit at 3:54:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeST_product_redemption_debit at 3:54:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_cc_redemption_debit at 3:54:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_qr_redemption_debit at 3:54:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode_sb_redemption_debit at 3:54:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-grabpay_redemption_debit at 3:54:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_sold_discount_debit at 3:54:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_debit at 3:54:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bdodc_debit at 3:54:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bdocc_debit at 3:54:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_promo_redemption_discount_debit at 3:54:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_promo_redemption_debit at 3:54:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-foodpanda_promo_redemption_debit at 3:54:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-foodpanda_promo_redemption_discount_debit at 3:54:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-honestbee_promo_redemption_debit at 3:54:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-honestbee_promo_redemption_discount_debit at 3:54:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung100_promo_redemption_debit at 3:54:58 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung100_promo_redemption_discount_debit at 3:54:58 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung500_promo_redemption_debit at 3:54:58 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung500_promo_redemption_discount_debit at 3:54:59 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-transaction_payment_types_redeemed at 3:54:59 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-transaction_payment_types_discount at 3:54:59 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_change_types_credit at 3:54:59 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-other_income_types_credit at 3:54:59 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_change_credit at 3:54:59 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-other_income_credit at 3:54:59 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-delivery_change_credit at 3:55:00 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_sold_credit at 3:55:00 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_redeemed_credit at 3:55:00 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_rewards_credit at 3:55:00 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_rewards_discount_credit at 3:55:00 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_rewards_discount_credit at 3:55:00 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_rewards_credit at 3:55:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_promo_credit at 3:55:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_promo_discount_credit at 3:55:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_redeemed_credit at 3:55:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-credit_card_credit at 3:55:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-debit_card_credit at 3:55:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-delivery_income_credit at 3:55:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_exempt_amount_credit at 3:55:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_exempt_sales_amount_credit at 3:55:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-zero_rated_sales_credit at 3:55:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-zero_rated_sales_discount_credit at 3:55:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_earned_credit at 3:55:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_discount_credit at 3:55:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_product_redemption_discount_credit at 3:55:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-ddisc_discounts at 3:55:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode1_product_redemption_discount_credit at 3:55:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode2_product_redemption_discount_credit at 3:55:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeRF_product_redemption_discount_credit at 3:55:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeST_product_redemption_discount_credit at 3:55:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_cc_redemption_discount_credit at 3:55:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-transaction_payment_types_redeemed_total at 3:55:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_qr_redemption_discount_credit at 3:55:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode_sb_redemption_discount_credit at 3:55:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-grabpay_redemption_discount_credit at 3:55:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_product_redemption_credit at 3:55:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode1_product_redemption_credit at 3:55:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode2_product_redemption_credit at 3:55:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeRF_product_redemption_credit at 3:55:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeST_product_redemption_credit at 3:55:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_cc_redemption_credit at 3:55:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-transaction_payment_types_discount_total at 3:55:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_qr_redemption_credit at 3:55:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode_sb_redemption_credit at 3:55:05 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-grabpay_redemption_credit at 3:55:05 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_sold_discount_credit at 3:55:05 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_credit at 3:55:05 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bdodc_credit at 3:55:05 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bdocc_credit at 3:55:05 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_promo_redemption_discount_credit at 3:55:05 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_promo_redemption_credit at 3:55:05 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-foodpanda_promo_redemption_credit at 3:55:06 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-foodpanda_promo_redemption_discount_credit at 3:55:06 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-honestbee_promo_redemption_credit at 3:55:06 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-honestbee_promo_redemption_discount_credit at 3:55:06 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung100_promo_redemption_credit at 3:55:06 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung100_promo_redemption_discount_credit at 3:55:06 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung500_promo_redemption_credit at 3:55:06 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung500_promo_redemption_discount_credit at 3:55:07 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_total at 3:55:07 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bdodc_total at 3:55:07 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bdocc_total at 3:55:07 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_promo_redemption_discount_total at 3:55:08 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_promo_redemption_total at 3:55:08 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-foodpanda_promo_redemption_total at 3:55:08 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-foodpanda_promo_redemption_discount_total at 3:55:08 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-honestbee_promo_redemption_total at 3:55:08 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-honestbee_promo_redemption_discount_total at 3:55:09 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung100_promo_redemption_total at 3:55:09 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung100_promo_redemption_discount_total at 3:55:09 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung500_promo_redemption_total at 3:55:09 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung500_promo_redemption_discount_total at 3:55:10 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_sold_discount_total at 3:55:10 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_product_redemption_discount_total at 3:55:10 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode1_product_redemption_discount_total at 3:55:10 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode2_product_redemption_discount_total at 3:55:10 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeRF_product_redemption_discount_total at 3:55:10 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeST_product_redemption_discount_total at 3:55:10 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_cc_redemption_discount_total at 3:55:10 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_qr_redemption_discount_total at 3:55:10 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode_sb_redemption_discount_total at 3:55:11 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-grabpay_redemption_discount_total at 3:55:11 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_product_redemption_total at 3:55:11 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode1_product_redemption_total at 3:55:11 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode2_product_redemption_total at 3:55:11 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeRF_product_redemption_total at 3:55:11 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeST_product_redemption_total at 3:55:12 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_cc_redemption_total at 3:55:12 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_qr_redemption_total at 3:55:12 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode_sb_redemption_total at 3:55:13 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-grabpay_redemption_total at 3:55:13 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_change_total at 3:55:13 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-other_income_combine at 3:55:13 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-other_income_total at 3:55:13 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-cash_pickup at 3:55:14 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-delivery_change_total at 3:55:14 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-kpp_deposit at 3:55:14 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-kpp_deposit_used at 3:55:14 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_sold_total at 3:55:14 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_redeemed_total at 3:55:14 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_rewards_total at 3:55:14 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_rewards_discount_total at 3:55:14 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_rewards_discount_total at 3:55:14 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_rewards_total at 3:55:15 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_promo_total at 3:55:15 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_promo_discount_total at 3:55:15 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_redeemed_total at 3:55:15 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_earned_total at 3:55:15 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_discount_total at 3:55:15 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-promo_redeemed_raw_with_globe at 3:55:15 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-promo_redeemed_with_globe at 3:55:15 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-credit_card_total at 3:55:16 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-debit_card_total at 3:55:16 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-shift_close at 3:55:16 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-discounts_with_globe at 3:55:16 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_exempt_amount_total at 3:55:16 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_exempt_sales_amount_total at 3:55:16 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-delivery_income_total at 3:55:17 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-green_fund_sales at 3:55:17 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-zero_rated_sales_total at 3:55:17 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-zero_rated_sales_discount_total at 3:55:17 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-cash_tendered_with_globe at 3:55:18 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gross_sales_with_globe at 3:55:18 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-sales_tax_with_globe at 3:55:18 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_sales_with_globe at 3:55:18 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-net_sales_with_globe at 3:55:19 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-total_sales at 3:55:19 PM
+-----------------------
+[Status] : END CREATING VIEWS at 3:55:19 PM
+-----------------------
+[Status] : Caching images started at 3:55:19 PM
+-----------------------
+[Status] : Caching Completed at 3:55:19 PM
+-----------------------
+[Status] : Caching dualscreen images started at 3:55:19 PM
+-----------------------
+[Status] : Opened Connection number : 0 at 3:55:19 PM
+-----------------------
+[Status] : Dualscreen Images Caching Completed at 3:56:06 PM
+-----------------------
+[Status] : Openning required connections at 3:56:11 PM
+-----------------------
+[Status] : Openned 0 number of connections at 3:56:11 PM
+-----------------------
+[Status] : Started loading components at 3:56:11 PM
+-----------------------
+[Status] : Finished loading components at 3:56:15 PM
+-----------------------
+[Status] : Opening device PUnit1 Type:PosPrinter at 3:56:29 PM
+-----------------------
+[Error] : Message : Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. 
+ StackTrace :    at Microsoft.PointOfService.Legacy.LegacyProxy.ThrowLegacyMethodException(String methodName, Int32 ResultCode, Exception e)
+   at Microsoft.PointOfService.Legacy.LegacyProxy.InvokeMethod(String methodName, Object[]& parameters, Boolean[] byRef)
+   at Microsoft.PointOfService.Legacy.LegacyProxy.InvokeMethodAndCheckImpl(String methodName, Object[]& parameters, Boolean[] byRef)
+   at Microsoft.PointOfService.Legacy.LegacyProxy.Claim(Int32 timeout)
+   at Microsoft.PointOfService.Legacy.LegacyPosPrinter.Claim(Int32 timeout)
+   at POS.Hardware.FusionPrinter.OpenDevice(String SOName) at 3:56:30 PM
+-----------------------
+[Status] : Failed to load printer with logical name :PUnit1 at 3:56:30 PM
+-----------------------
+[Error] : Message : Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. 
+ StackTrace :    at POS.Hardware.FusionPrinter.OpenDevice(String SOName)
+   at POS.Hardware.FusionPrinter..ctor(String logicalName, Boolean printerAsync) at 3:56:30 PM
+-----------------------
+[Error] : Message : Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. 
+ StackTrace :    at POS.Hardware.FusionPrinter..ctor(String logicalName, Boolean printerAsync)
+   at POS.Hardware.POSPrinterManager..ctor() at 3:56:30 PM
+-----------------------
+[Error] : Message : Object reference not set to an instance of an object. 
+ StackTrace :    at POS.Hardware.POSPrinterManager.CheckStatus() at 3:56:30 PM
+-----------------------
+[Status] : Start up at 3:57:27 PM
+-----------------------
+[Status] : Set time : time 2019/11/26 7:57:34.0 at 3:57:34 PM
+-----------------------
+[Status] : 172.29.138.69 at 3:57:34 PM
+-----------------------
+[Status] : Openning required connections at 3:57:35 PM
+-----------------------
+[Status] : Openned 0 number of connections at 3:57:35 PM
+-----------------------
+[Status] : Started loading components at 3:57:35 PM
+-----------------------
+[Status] : Finished loading components at 3:57:39 PM
+-----------------------
+[Status] : Opened Connection number : 0 at 3:57:45 PM
+-----------------------
+[Status] : Done caching table at 3:57:52 PM
+-----------------------
+[Status] : Opening device PUnit1 Type:PosPrinter at 3:57:52 PM
+-----------------------
+[Status] : Empty Grand Total Logs at 3:58:43 PM
+-----------------------
+[Status] : End of Day at 3:58:48 PM
+-----------------------
+[Status] : Opened Connection number : 1 at 3:58:50 PM
+-----------------------
+[Status] : End of Day at 3:58:50 PM
+-----------------------
+[Status] : End of Day at 3:58:52 PM
+-----------------------
+[Status] : End of Day at 3:58:57 PM
+-----------------------
+[Status] : End of Day at 3:59:00 PM
+-----------------------
+[Status] : End of Day at 3:59:02 PM
+-----------------------
+[Status] : End of Day at 3:59:15 PM
+-----------------------
+[Status] : End of Day at 3:59:17 PM
+-----------------------
+[Status] : End of Day at 4:01:07 PM
+-----------------------
+[Status] : End of Day at 4:01:09 PM
+-----------------------
+[Status] : End of Day at 4:01:31 PM
+-----------------------
+[Status] : Start up at 4:02:34 PM
+-----------------------
+[Status] : Set time : time 2019/11/26 8:2:37.0 at 4:02:37 PM
+-----------------------
+[Status] : 172.29.138.69 at 4:02:37 PM
+-----------------------
+[Error] : Message : SQL logic error or missing database
+no such table: pos-system_configuration_master 
+ StackTrace :    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLite3.cs:line 1006
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 376
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 383
+   at System.Data.SQLite.SQLiteDataReader.NextResult() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 1247
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 113
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 801
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 662
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at POS.Class.POSDbCommand.ExecuteReader()
+   at POS.SystemConfiguration.getSystemConfigurationSettings()
+   at POS.SystemConfiguration..ctor() at 4:02:37 PM
+-----------------------
+[Status] : Connection not available. Couldn't verify POS version.SQL logic error or missing database
+no such table: pos-system_configuration_master   at POS.SystemConfiguration..ctor()
+   at POS.SystemConfiguration.get_Instance()
+   at POS.DataAccess.Layer.VersionUpdateRepository.IsNewlyUpdated() at 4:02:37 PM
+-----------------------
+[Error] : Message : SQL logic error or missing database
+no such table: pos-system_configuration_master 
+ StackTrace :    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLite3.cs:line 1006
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 376
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 383
+   at System.Data.SQLite.SQLiteDataReader.NextResult() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 1247
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 113
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 801
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 662
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at POS.Class.POSDbCommand.ExecuteReader()
+   at POS.SystemConfiguration.getSystemConfigurationSettings()
+   at POS.SystemConfiguration..ctor() at 4:02:37 PM
+-----------------------
+[Status] : Syncing Server to local : ifForced True at 4:02:37 PM
+-----------------------
+[Status] : Done caching table at 4:02:38 PM
+-----------------------
+[Error] : Message : SQL logic error or missing database
+no such table: pos-series_number 
+ StackTrace :    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLite3.cs:line 1006
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 376
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 383
+   at System.Data.SQLite.SQLiteDataReader.NextResult() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 1247
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 113
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 801
+   at System.Data.SQLite.SQLiteCommand.ExecuteScalar(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 879
+   at System.Data.SQLite.SQLiteCommand.ExecuteScalar() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 866
+   at POS.DBSync.CheckIfThereAreRowsToPush() at 4:02:38 PM
+-----------------------
+[Error] : Message : SQL logic error or missing database
+no such table: pos-series_number 
+ StackTrace :    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLite3.cs:line 1006
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 376
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 383
+   at System.Data.SQLite.SQLiteDataReader.NextResult() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 1247
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteDataReader.cs:line 113
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 801
+   at System.Data.SQLite.SQLiteCommand.ExecuteScalar(CommandBehavior behavior) in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 879
+   at System.Data.SQLite.SQLiteCommand.ExecuteScalar() in c:\dev\sqlite\dotnet\System.Data.SQLite\SQLiteCommand.cs:line 866
+   at POS.DBSync.CheckIfThereAreRowsToPush() at 4:02:38 PM
+-----------------------
+[Status] : Pusing unsynced transactions. at 4:02:38 PM
+-----------------------
+[Error] : Message : SQL logic error or missing database
+no such table: pos-system_configuration_master 
+ StackTrace :    at POS.SystemConfiguration..ctor()
+   at POS.SystemConfiguration.get_Instance()
+   at POS.ViewModel.Form.POSMainWindowViewModel.Bootup() at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-series_number  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-business_date  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-business_date_logs  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-grand_total_monitor  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-grand_total_monitor_logs  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-ges_sequence  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-version_update_logs  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-party_package_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-party_payment_type_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE party-party_headers  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE party-party_details  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_store_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-pricing_type_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-daypart_store_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE entities-employee_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE entities-user_employee_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE entities-store_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE entities-employee_position_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE entities-employee_card_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE admin-role_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-component_group_product_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_component_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-component_group_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-daypart_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-food_type_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_bom_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_category_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_category_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_pricing_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_type_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_transaction_type_group_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE bcode_product_payment_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-cash_post_type_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-discount_type_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-payment_type_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_type_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_type_group_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE entities-user_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-gc_type_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-gc_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-other_income_type_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-void_reason_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-product_size_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-component_upgrade_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE menu-component_upgrade_pricing_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-pos_terminal_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-module_authentication_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-module_authentication_store_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE kds-monitor_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE kds-request_type_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE kds-request_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE kds-pos_terminals  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-view_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-home_products  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-promo_product_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-promo_cash_post_type_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-promo_payment_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-dualscreen_configuration_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-dualscreen_configuration_store_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-barcode_product_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-gcash_config_matrix  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-system_configuration_master  at 4:02:38 PM
+-----------------------
+[Status] : CREATING TABLE pos-system_configuration_store_matrix  at 4:02:38 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-series_number at 4:02:38 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-business_date at 4:02:38 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-business_date_logs at 4:02:38 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-grand_total_monitor at 4:02:38 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-grand_total_monitor_logs at 4:02:38 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-ges_sequence at 4:02:38 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-version_update_logs at 4:02:38 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-party_package_master at 4:02:38 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-party_payment_type_master at 4:02:38 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM party-party_headers at 4:02:38 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM party-party_details at 4:02:38 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_store_matrix at 4:02:38 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-pricing_type_master at 4:02:39 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-daypart_store_matrix at 4:02:39 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM entities-employee_master at 4:02:39 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM entities-user_employee_matrix at 4:02:39 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM entities-store_master at 4:02:46 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM entities-employee_position_master at 4:02:47 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM entities-employee_card_matrix at 4:02:47 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM admin-role_master at 4:02:47 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_master at 4:02:47 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-component_group_product_matrix at 4:02:48 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_component_matrix at 4:02:49 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-component_group_master at 4:02:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-daypart_master at 4:02:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-food_type_master at 4:02:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_bom_matrix at 4:02:52 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_category_matrix at 4:03:32 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_category_master at 4:03:33 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_pricing_matrix at 4:03:33 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_type_master at 4:03:42 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_transaction_type_group_matrix at 4:03:42 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM bcode_product_payment_matrix at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-cash_post_type_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-discount_type_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-payment_type_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-transaction_type_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-transaction_type_group_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM entities-user_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-gc_type_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-gc_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-other_income_type_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-void_reason_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-product_size_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-component_upgrade_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM menu-component_upgrade_pricing_matrix at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-pos_terminal_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-module_authentication_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-module_authentication_store_matrix at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM kds-monitor_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM kds-request_type_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM kds-request_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM kds-pos_terminals at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-view_master at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-home_products at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-promo_product_matrix at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-promo_cash_post_type_matrix at 4:03:43 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-promo_payment_matrix at 4:03:44 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-dualscreen_configuration_master at 4:03:44 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-dualscreen_configuration_store_matrix at 4:03:44 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-barcode_product_matrix at 4:03:44 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-gcash_config_matrix at 4:03:44 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-system_configuration_master at 4:03:44 PM
+-----------------------
+[Status] : PULLING TABLE DATA FROM pos-system_configuration_store_matrix at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_headers  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_combo_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_product_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_discount_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_cash_monitor  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_void_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_gc_sold_void_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_gc_redeemed_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_gc_redeemed_headers  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_discount_headers  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_discount_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_gc_sold_headers  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_gc_sold_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_service_time_logs  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_product_void_logs  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_promo_redeemed_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_other_income_headers  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_credit_card_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-party_transaction_headers  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-party_transaction_matrix  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_ges_redeemed_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_loyalty_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_drivethru_headers  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_drivethru_product_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_drivethru_combo_details  at 4:03:44 PM
+-----------------------
+[Status] : CREATING TABLE pos-transaction_authentication_logs  at 4:03:44 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-trans_count at 4:03:44 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-initial_cash at 4:03:45 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_change_types_debit at 4:03:45 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-other_income_types_debit at 4:03:45 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_change_debit at 4:03:45 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-scd_discounts at 4:03:45 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-other_income_debit at 4:03:45 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-delivery_change_debit at 4:03:45 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_sold_debit at 4:03:45 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_redeemed_debit at 4:03:45 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_rewards_debit at 4:03:45 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_rewards_discount_debit at 4:03:46 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_rewards_discount_debit at 4:03:46 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_rewards_debit at 4:03:46 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_promo_debit at 4:03:46 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_promo_discount_debit at 4:03:46 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_redeemed_debit at 4:03:46 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-credit_card_debit at 4:03:46 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-debit_card_debit at 4:03:46 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_exempt_amount_debit at 4:03:46 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_exempt_sales_amount_debit at 4:03:46 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-delivery_income_debit at 4:03:47 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-zero_rated_sales_debit at 4:03:47 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-zero_rated_sales_discount_debit at 4:03:47 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_earned_debit at 4:03:47 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_discount_debit at 4:03:47 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_product_redemption_discount_debit at 4:03:47 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode1_product_redemption_discount_debit at 4:03:47 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode2_product_redemption_discount_debit at 4:03:47 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeRF_product_redemption_discount_debit at 4:03:47 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeST_product_redemption_discount_debit at 4:03:47 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_cc_redemption_discount_debit at 4:03:48 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_qr_redemption_discount_debit at 4:03:48 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode_sb_redemption_discount_debit at 4:03:48 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-grabpay_redemption_discount_debit at 4:03:48 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_product_redemption_debit at 4:03:48 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode1_product_redemption_debit at 4:03:48 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode2_product_redemption_debit at 4:03:48 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeRF_product_redemption_debit at 4:03:48 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeST_product_redemption_debit at 4:03:48 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_cc_redemption_debit at 4:03:48 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_qr_redemption_debit at 4:03:49 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode_sb_redemption_debit at 4:03:49 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-grabpay_redemption_debit at 4:03:49 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_sold_discount_debit at 4:03:49 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_debit at 4:03:49 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bdodc_debit at 4:03:49 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bdocc_debit at 4:03:49 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_promo_redemption_discount_debit at 4:03:49 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_promo_redemption_debit at 4:03:49 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-foodpanda_promo_redemption_debit at 4:03:49 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-foodpanda_promo_redemption_discount_debit at 4:03:50 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-honestbee_promo_redemption_debit at 4:03:50 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-honestbee_promo_redemption_discount_debit at 4:03:50 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung100_promo_redemption_debit at 4:03:50 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung100_promo_redemption_discount_debit at 4:03:50 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung500_promo_redemption_debit at 4:03:50 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung500_promo_redemption_discount_debit at 4:03:50 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-transaction_payment_types_redeemed at 4:03:50 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-transaction_payment_types_discount at 4:03:51 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_change_types_credit at 4:03:51 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-other_income_types_credit at 4:03:51 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_change_credit at 4:03:51 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-other_income_credit at 4:03:51 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-delivery_change_credit at 4:03:52 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_sold_credit at 4:03:52 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_redeemed_credit at 4:03:52 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_rewards_credit at 4:03:52 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_rewards_discount_credit at 4:03:52 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_rewards_discount_credit at 4:03:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_rewards_credit at 4:03:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_promo_credit at 4:03:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_promo_discount_credit at 4:03:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_redeemed_credit at 4:03:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-credit_card_credit at 4:03:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-debit_card_credit at 4:03:53 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-delivery_income_credit at 4:03:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_exempt_amount_credit at 4:03:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_exempt_sales_amount_credit at 4:03:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-zero_rated_sales_credit at 4:03:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-zero_rated_sales_discount_credit at 4:03:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_earned_credit at 4:03:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_discount_credit at 4:03:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_product_redemption_discount_credit at 4:03:54 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-ddisc_discounts at 4:03:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode1_product_redemption_discount_credit at 4:03:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode2_product_redemption_discount_credit at 4:03:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeRF_product_redemption_discount_credit at 4:03:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeST_product_redemption_discount_credit at 4:03:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_cc_redemption_discount_credit at 4:03:55 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-transaction_payment_types_redeemed_total at 4:03:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_qr_redemption_discount_credit at 4:03:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode_sb_redemption_discount_credit at 4:03:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-grabpay_redemption_discount_credit at 4:03:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_product_redemption_credit at 4:03:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode1_product_redemption_credit at 4:03:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode2_product_redemption_credit at 4:03:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeRF_product_redemption_credit at 4:03:56 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeST_product_redemption_credit at 4:03:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_cc_redemption_credit at 4:03:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-transaction_payment_types_discount_total at 4:03:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_qr_redemption_credit at 4:03:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode_sb_redemption_credit at 4:03:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-grabpay_redemption_credit at 4:03:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_sold_discount_credit at 4:03:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_credit at 4:03:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bdodc_credit at 4:03:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bdocc_credit at 4:03:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_promo_redemption_discount_credit at 4:03:57 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_promo_redemption_credit at 4:03:58 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-foodpanda_promo_redemption_credit at 4:03:58 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-foodpanda_promo_redemption_discount_credit at 4:03:58 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-honestbee_promo_redemption_credit at 4:03:58 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-honestbee_promo_redemption_discount_credit at 4:03:58 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung100_promo_redemption_credit at 4:03:58 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung100_promo_redemption_discount_credit at 4:03:58 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung500_promo_redemption_credit at 4:03:58 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung500_promo_redemption_discount_credit at 4:03:59 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_total at 4:03:59 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bdodc_total at 4:03:59 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bdocc_total at 4:03:59 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_promo_redemption_discount_total at 4:04:00 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gcash_promo_redemption_total at 4:04:00 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-foodpanda_promo_redemption_total at 4:04:00 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-foodpanda_promo_redemption_discount_total at 4:04:00 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-honestbee_promo_redemption_total at 4:04:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-honestbee_promo_redemption_discount_total at 4:04:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung100_promo_redemption_total at 4:04:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung100_promo_redemption_discount_total at 4:04:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung500_promo_redemption_total at 4:04:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-samsung500_promo_redemption_discount_total at 4:04:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_sold_discount_total at 4:04:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_product_redemption_discount_total at 4:04:01 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode1_product_redemption_discount_total at 4:04:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode2_product_redemption_discount_total at 4:04:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeRF_product_redemption_discount_total at 4:04:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeST_product_redemption_discount_total at 4:04:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_cc_redemption_discount_total at 4:04:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_qr_redemption_discount_total at 4:04:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode_sb_redemption_discount_total at 4:04:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-grabpay_redemption_discount_total at 4:04:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_product_redemption_total at 4:04:02 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode1_product_redemption_total at 4:04:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode2_product_redemption_total at 4:04:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeRF_product_redemption_total at 4:04:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcodeST_product_redemption_total at 4:04:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_cc_redemption_total at 4:04:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-paymaya_qr_redemption_total at 4:04:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-bcode_sb_redemption_total at 4:04:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-grabpay_redemption_total at 4:04:03 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_change_total at 4:04:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-other_income_combine at 4:04:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-other_income_total at 4:04:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-cash_pickup at 4:04:04 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-delivery_change_total at 4:04:05 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-kpp_deposit at 4:04:05 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-kpp_deposit_used at 4:04:05 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_sold_total at 4:04:06 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gc_redeemed_total at 4:04:06 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_rewards_total at 4:04:06 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_rewards_discount_total at 4:04:06 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_rewards_discount_total at 4:04:06 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-hsbc_rewards_total at 4:04:06 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_promo_total at 4:04:07 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-globe_promo_discount_total at 4:04:07 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_redeemed_total at 4:04:07 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_earned_total at 4:04:07 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-loyalty_discount_total at 4:04:07 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-promo_redeemed_raw_with_globe at 4:04:08 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-promo_redeemed_with_globe at 4:04:08 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-credit_card_total at 4:04:08 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-debit_card_total at 4:04:08 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-shift_close at 4:04:08 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-discounts_with_globe at 4:04:08 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_exempt_amount_total at 4:04:09 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_exempt_sales_amount_total at 4:04:09 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-delivery_income_total at 4:04:09 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-green_fund_sales at 4:04:09 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-zero_rated_sales_total at 4:04:09 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-zero_rated_sales_discount_total at 4:04:09 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-cash_tendered_with_globe at 4:04:09 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-gross_sales_with_globe at 4:04:10 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-sales_tax_with_globe at 4:04:10 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-vat_sales_with_globe at 4:04:10 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-net_sales_with_globe at 4:04:10 PM
+-----------------------
+[Status] : CREATING VIEW view-pos-total_sales at 4:04:11 PM
+-----------------------
+[Status] : END CREATING VIEWS at 4:04:11 PM
+-----------------------
+[Status] : Caching images started at 4:04:11 PM
+-----------------------
+[Status] : Caching Completed at 4:04:11 PM
+-----------------------
+[Status] : Caching dualscreen images started at 4:04:11 PM
+-----------------------
+[Status] : Opened Connection number : 0 at 4:04:12 PM
+-----------------------
+[Status] : dualscreen_image\Baconized_Snacker.bmp skipped. Already exists! at 4:04:21 PM
+-----------------------
+[Status] : dualscreen_image\Baconized_Snacker_Combo.bmp skipped. Already exists! at 4:04:21 PM
+-----------------------
+[Status] : dualscreen_image\Baconized_Zinger.bmp skipped. Already exists! at 4:04:21 PM
+-----------------------
+[Status] : Dualscreen Images Caching Completed at 4:04:21 PM
+-----------------------
+[Status] : Openning required connections at 4:04:24 PM
+-----------------------
+[Status] : Openned 0 number of connections at 4:04:24 PM
+-----------------------
+[Status] : Started loading components at 4:04:24 PM
+-----------------------
+[Status] : Finished loading components at 4:04:28 PM
+-----------------------
+[Status] : Opening device PUnit1 Type:PosPrinter at 4:04:37 PM
+-----------------------
+[Status] : End of Day at 4:05:05 PM
+-----------------------
+[Status] : Opened Connection number : 1 at 4:05:07 PM
+-----------------------
+[Status] : End of Day at 4:05:17 PM
+-----------------------
+[Status] : End of Day at 4:05:19 PM
+-----------------------
+[Status] : End of Day at 4:05:21 PM
+-----------------------
+[Status] : End of Day at 4:05:23 PM
+-----------------------
+[Status] : End of Day at 4:05:26 PM
+-----------------------
+[Status] : End of Day at 4:05:28 PM
+-----------------------
+[Status] : End of Day at 4:05:30 PM
+-----------------------
+[Status] : End of Day at 4:05:33 PM
+-----------------------
+[Status] : End of Day at 4:05:35 PM
+-----------------------
+[Status] : End of Day at 4:05:37 PM
+-----------------------
+[Status] : End of Day at 4:05:42 PM
+-----------------------
+[Status] : End of Day at 4:05:43 PM
+-----------------------
+[Status] : End of Day at 4:05:46 PM
+-----------------------
+[Status] : End of Day at 4:05:47 PM
+-----------------------
+[Status] : End of Day at 4:05:49 PM
+-----------------------
+[Status] : End of Day at 4:05:52 PM
+-----------------------
+[Status] : End of Day at 4:05:53 PM
+-----------------------
+[Status] : End of Day at 4:05:56 PM
+-----------------------
+[Status] : End of Day at 4:05:58 PM
+-----------------------
+[Status] : End of Day at 4:06:01 PM
+-----------------------
+[Status] : End of Day at 4:06:03 PM
+-----------------------
+[Status] : End of Day at 4:06:06 PM
+-----------------------
+[Status] : End of Day at 4:06:08 PM
+-----------------------
+[Status] : End of Day at 4:06:11 PM
+-----------------------
+[Status] : End of Day at 4:06:14 PM
+-----------------------
+[Status] : End of Day at 4:06:16 PM
+-----------------------
+[Status] : End of Day at 4:06:18 PM
+-----------------------
+[Status] : End of Day at 4:06:20 PM
+-----------------------
+[Status] : End of Day at 4:06:23 PM
+-----------------------
+[Status] : End of Day at 4:06:25 PM
+-----------------------
+[Status] : End of Day at 4:06:28 PM
+-----------------------
+[Status] : End of Day at 4:06:31 PM
+-----------------------
+[Status] : End of Day at 4:06:34 PM
+-----------------------
+[Status] : End of Day at 4:06:36 PM
+-----------------------
+[Status] : End of Day at 4:06:38 PM
+-----------------------
+[Status] : End of Day at 4:06:40 PM
+-----------------------
+[Status] : End of Day at 4:06:41 PM
+-----------------------
+[Status] : End of Day at 4:06:44 PM
+-----------------------
+[Status] : End of Day at 4:06:47 PM
+-----------------------
+[Status] : End of Day at 4:06:50 PM
+-----------------------
+[Status] : End of Day at 4:06:52 PM
+-----------------------
+[Status] : End of Day at 4:06:55 PM
+-----------------------
+[Status] : End of Day at 4:06:57 PM
+-----------------------
+[Status] : End of Day at 4:07:00 PM
+-----------------------
+[Status] : End of Day at 4:07:02 PM
+-----------------------
+[Status] : End of Day at 4:07:04 PM
+-----------------------
+[Status] : End of Day at 4:07:06 PM
+-----------------------
+[Status] : End of Day at 4:07:08 PM
+-----------------------
+[Status] : End of Day at 4:07:11 PM
+-----------------------
+[Status] : End of Day at 4:07:15 PM
+-----------------------
+[Status] : End of Day at 4:07:17 PM
+-----------------------
+[Status] : End of Day at 4:07:19 PM
+-----------------------
+[Status] : End of Day at 4:07:22 PM
+-----------------------
+[Status] : End of Day at 4:07:25 PM
+-----------------------
+[Status] : End of Day at 4:07:27 PM
+-----------------------
+[Status] : End of Day at 4:07:31 PM
+-----------------------
+[Status] : End of Day at 4:07:33 PM
+-----------------------
+[Status] : End of Day at 4:07:36 PM
+-----------------------
+[Status] : End of Day at 4:07:39 PM
+-----------------------
+[Status] : End of Day at 4:07:41 PM
+-----------------------
+[Status] : End of Day at 4:07:44 PM
+-----------------------
+[Status] : End of Day at 4:07:47 PM
+-----------------------
+[Status] : End of Day at 4:07:49 PM
+-----------------------
+[Status] : End of Day at 4:07:51 PM
+-----------------------
+[Status] : End of Day at 4:07:54 PM
+-----------------------
+[Status] : End of Day at 4:07:56 PM
+-----------------------
+[Status] : End of Day at 4:08:00 PM
+-----------------------
+[Status] : End of Day at 4:08:02 PM
+-----------------------
+[Status] : End of Day at 4:08:05 PM
+-----------------------
+[Status] : End of Day at 4:08:08 PM
+-----------------------
+[Error] : Message : Could not find Cash Drawer with logical name: CDUnit1 
+ StackTrace :    at POS.Hardware.POSCashDrawer..ctor(String logicalName)
+   at POS.Class.Hardware.POSCashDrawerManager..ctor() at 4:08:10 PM
+-----------------------
+[Status] : Commit Initial Cash at 4:08:12 PM
+-----------------------
+[Status] : StartPOS function triggered at 4:08:12 PM
+-----------------------
+[Status] : Updater thread started. at 4:08:12 PM
+-----------------------
+[Status] : Updating dualscreen cache... at 4:08:12 PM
+-----------------------
+[Status] : Removing old image:dualscreen_image\ADDHOPE1.bmp at 4:08:12 PM
+-----------------------
+[Status] : Removing old image:dualscreen_image\Sisig_Rice_Bowl.bmp at 4:08:12 PM
+-----------------------
+[Status] : Removing old image:dualscreen_image\SuperSavers.bmp at 4:08:12 PM
+-----------------------
+[Status] : Removing old image:dualscreen_image\Thumbs.db at 4:08:12 PM
+-----------------------
+[Status] : Commit transaction started at 4:08:25 PM
+-----------------------
+[Status] : Saving transaction started. at 4:08:25 PM
+-----------------------
+[Status] : Saving transaction finished. at 4:08:25 PM
+-----------------------
+[Error] : Message : Object reference not set to an instance of an object. 
+ StackTrace :    at POS.Class.Hardware.POSCashDrawerManager.get_IsDrawerOpen() at 4:08:27 PM
+-----------------------
+[Error] : Message : Could not find Cash Drawer with logical name: CDUnit1 
+ StackTrace :    at POS.Hardware.POSCashDrawer..ctor(String logicalName)
+   at POS.Class.Hardware.POSCashDrawerManager.ReInitializeDrawer() at 4:08:27 PM
+-----------------------
+[Memory Usage] : Allocation : 80968kb Message : Post Transaction at 4:08:28 PM
+-----------------------
+[Status] : Commit transaction finished. at 4:08:28 PM
+-----------------------
+[Status] : POS Shutdown at 4:08:40 PM
+-----------------------
+[Status] : Start up at 4:08:42 PM
+-----------------------
+[Status] : Set time : time 2019/11/26 8:8:44.0 at 4:08:44 PM
+-----------------------
+[Status] : 172.29.138.69 at 4:08:44 PM
+-----------------------
+[Status] : Openning required connections at 4:08:44 PM
+-----------------------
+[Status] : Openned 0 number of connections at 4:08:44 PM
+-----------------------
+[Status] : Started loading components at 4:08:44 PM
+-----------------------
+[Status] : Finished loading components at 4:08:49 PM
+-----------------------
+[Status] : Opened Connection number : 0 at 4:08:54 PM
+-----------------------
+[Status] : Done caching table at 4:09:01 PM
+-----------------------
+[Status] : Opening device PUnit1 Type:PosPrinter at 4:09:01 PM
+-----------------------
+[Error] : Message : Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. 
+ StackTrace :    at Microsoft.PointOfService.Legacy.LegacyProxy.ThrowLegacyMethodException(String methodName, Int32 ResultCode, Exception e)
+   at Microsoft.PointOfService.Legacy.LegacyProxy.InvokeMethod(String methodName, Object[]& parameters, Boolean[] byRef)
+   at Microsoft.PointOfService.Legacy.LegacyProxy.InvokeMethodAndCheckImpl(String methodName, Object[]& parameters, Boolean[] byRef)
+   at Microsoft.PointOfService.Legacy.LegacyProxy.Claim(Int32 timeout)
+   at Microsoft.PointOfService.Legacy.LegacyPosPrinter.Claim(Int32 timeout)
+   at POS.Hardware.FusionPrinter.OpenDevice(String SOName) at 4:09:01 PM
+-----------------------
+[Status] : Failed to load printer with logical name :PUnit1 at 4:09:01 PM
+-----------------------
+[Error] : Message : Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. 
+ StackTrace :    at POS.Hardware.FusionPrinter.OpenDevice(String SOName)
+   at POS.Hardware.FusionPrinter..ctor(String logicalName, Boolean printerAsync) at 4:09:01 PM
+-----------------------
+[Error] : Message : Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. 
+ StackTrace :    at POS.Hardware.FusionPrinter..ctor(String logicalName, Boolean printerAsync)
+   at POS.Hardware.POSPrinterManager..ctor() at 4:09:01 PM
+-----------------------
+[Error] : Message : Object reference not set to an instance of an object. 
+ StackTrace :    at POS.Hardware.POSPrinterManager.CheckStatus() at 4:09:01 PM
+-----------------------
+[Status] : Start up at 4:09:43 PM
+-----------------------
+[Status] : Set time : time 2019/11/26 8:9:47.0 at 4:09:47 PM
+-----------------------
+[Status] : 172.29.138.69 at 4:09:47 PM
+-----------------------
+[Status] : Openning required connections at 4:09:47 PM
+-----------------------
+[Status] : Openned 0 number of connections at 4:09:47 PM
+-----------------------
+[Status] : Started loading components at 4:09:47 PM
+-----------------------
+[Status] : Finished loading components at 4:09:52 PM
+-----------------------
+[Status] : Opened Connection number : 0 at 4:09:58 PM
+-----------------------
+[Status] : Done caching table at 4:10:04 PM
+-----------------------
+[Status] : Opening device PUnit1 Type:PosPrinter at 4:10:05 PM
+-----------------------
+[Error] : Message : Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. 
+ StackTrace :    at Microsoft.PointOfService.Legacy.LegacyProxy.ThrowLegacyMethodException(String methodName, Int32 ResultCode, Exception e)
+   at Microsoft.PointOfService.Legacy.LegacyProxy.InvokeMethod(String methodName, Object[]& parameters, Boolean[] byRef)
+   at Microsoft.PointOfService.Legacy.LegacyProxy.InvokeMethodAndCheckImpl(String methodName, Object[]& parameters, Boolean[] byRef)
+   at Microsoft.PointOfService.Legacy.LegacyProxy.Claim(Int32 timeout)
+   at Microsoft.PointOfService.Legacy.LegacyPosPrinter.Claim(Int32 timeout)
+   at POS.Hardware.FusionPrinter.OpenDevice(String SOName) at 4:10:05 PM
+-----------------------
+[Status] : Failed to load printer with logical name :PUnit1 at 4:10:05 PM
+-----------------------
+[Error] : Message : Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. 
+ StackTrace :    at POS.Hardware.FusionPrinter.OpenDevice(String SOName)
+   at POS.Hardware.FusionPrinter..ctor(String logicalName, Boolean printerAsync) at 4:10:05 PM
+-----------------------
+[Error] : Message : Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. 
+ StackTrace :    at POS.Hardware.FusionPrinter..ctor(String logicalName, Boolean printerAsync)
+   at POS.Hardware.POSPrinterManager..ctor() at 4:10:05 PM
+-----------------------
+[Error] : Message : Object reference not set to an instance of an object. 
+ StackTrace :    at POS.Hardware.POSPrinterManager.CheckStatus() at 4:10:05 PM
+-----------------------
+[Status] : Start up at 4:12:22 PM
+-----------------------
+[Status] : Set time : time 2019/11/26 8:12:26.0 at 4:12:26 PM
+-----------------------
+[Status] : 172.29.138.69 at 4:12:26 PM
+-----------------------
+[Status] : Openning required connections at 4:12:26 PM
+-----------------------
+[Status] : Openned 0 number of connections at 4:12:26 PM
+-----------------------
+[Status] : Started loading components at 4:12:27 PM
+-----------------------
+[Status] : Finished loading components at 4:12:31 PM
+-----------------------
+[Status] : Opened Connection number : 0 at 4:12:34 PM
+-----------------------
+[Status] : Done caching table at 4:12:40 PM
+-----------------------
+[Status] : Opening device PUnit1 Type:PosPrinter at 4:12:41 PM
+-----------------------
+[Status] : StartPOS function triggered at 4:13:57 PM
+-----------------------
+[Status] : Updater thread started. at 4:13:57 PM
+-----------------------
+[Status] : Updating dualscreen cache... at 4:13:57 PM
+-----------------------
+[Status] : Opened Connection number : 1 at 4:13:57 PM
+-----------------------
+[Status] : Commit transaction started at 4:14:06 PM
+-----------------------
+[Status] : Saving transaction started. at 4:14:06 PM
+-----------------------
+[Status] : Saving transaction finished. at 4:14:07 PM
+-----------------------
+[Error] : Message : Could not find Cash Drawer with logical name: CDUnit1 
+ StackTrace :    at POS.Hardware.POSCashDrawer..ctor(String logicalName)
+   at POS.Class.Hardware.POSCashDrawerManager..ctor() at 4:14:07 PM
+-----------------------
+[Error] : Message : Object reference not set to an instance of an object. 
+ StackTrace :    at POS.Class.Hardware.POSCashDrawerManager.get_IsDrawerOpen() at 4:14:07 PM
+-----------------------
+[Error] : Message : Could not find Cash Drawer with logical name: CDUnit1 
+ StackTrace :    at POS.Hardware.POSCashDrawer..ctor(String logicalName)
+   at POS.Class.Hardware.POSCashDrawerManager.ReInitializeDrawer() at 4:14:49 PM
+-----------------------
+[Memory Usage] : Allocation : 70528kb Message : Post Transaction at 4:14:49 PM
+-----------------------
+[Status] : Commit transaction finished. at 4:14:49 PM
+-----------------------
+[Status] : Commit transaction started at 4:15:15 PM
+-----------------------
+[Status] : Saving transaction started. at 4:15:15 PM
+-----------------------
+[Status] : Saving transaction finished. at 4:15:16 PM
+-----------------------
+[Error] : Message : Object reference not set to an instance of an object. 
+ StackTrace :    at POS.Class.Hardware.POSCashDrawerManager.get_IsDrawerOpen() at 4:15:16 PM
+-----------------------
+[Error] : Message : Could not find Cash Drawer with logical name: CDUnit1 
+ StackTrace :    at POS.Hardware.POSCashDrawer..ctor(String logicalName)
+   at POS.Class.Hardware.POSCashDrawerManager.ReInitializeDrawer() at 4:15:35 PM
+-----------------------
+[Memory Usage] : Allocation : 73316kb Message : Post Transaction at 4:15:36 PM
+-----------------------
+[Status] : Commit transaction finished. at 4:15:36 PM
+-----------------------
+[Status] : Commit transaction started at 4:15:40 PM
+-----------------------
+[Status] : Saving transaction started. at 4:15:40 PM
+-----------------------
+[Status] : Saving transaction finished. at 4:15:40 PM
+-----------------------
+[Error] : Message : Object reference not set to an instance of an object. 
+ StackTrace :    at POS.Class.Hardware.POSCashDrawerManager.get_IsDrawerOpen() at 4:15:40 PM
+-----------------------
+[Error] : Message : Could not find Cash Drawer with logical name: CDUnit1 
+ StackTrace :    at POS.Hardware.POSCashDrawer..ctor(String logicalName)
+   at POS.Class.Hardware.POSCashDrawerManager.ReInitializeDrawer() at 4:15:43 PM
+-----------------------
+[Memory Usage] : Allocation : 73432kb Message : Post Transaction at 4:15:44 PM
+-----------------------
+[Status] : Commit transaction finished. at 4:15:44 PM
+-----------------------
+[Status] : Commit transaction started at 4:16:03 PM
+-----------------------
+[Status] : Saving transaction started. at 4:16:03 PM
+-----------------------
+[Status] : Saving transaction finished. at 4:16:03 PM
+-----------------------
+[Error] : Message : Object reference not set to an instance of an object. 
+ StackTrace :    at POS.Class.Hardware.POSCashDrawerManager.get_IsDrawerOpen() at 4:16:03 PM
+-----------------------
+[Error] : Message : Could not find Cash Drawer with logical name: CDUnit1 
+ StackTrace :    at POS.Hardware.POSCashDrawer..ctor(String logicalName)
+   at POS.Class.Hardware.POSCashDrawerManager.ReInitializeDrawer() at 4:16:04 PM
+-----------------------
+[Memory Usage] : Allocation : 74360kb Message : Post Transaction at 4:16:05 PM
+-----------------------
+[Status] : Commit transaction finished. at 4:16:05 PM
+-----------------------
+[Status] : Commit transaction started at 4:16:33 PM
+-----------------------
+[Status] : Saving transaction started. at 4:16:33 PM
+-----------------------
+[Status] : Saving transaction finished. at 4:16:34 PM
+-----------------------
+[Error] : Message : Object reference not set to an instance of an object. 
+ StackTrace :    at POS.Class.Hardware.POSCashDrawerManager.get_IsDrawerOpen() at 4:16:34 PM
+-----------------------
+[Error] : Message : Could not find Cash Drawer with logical name: CDUnit1 
+ StackTrace :    at POS.Hardware.POSCashDrawer..ctor(String logicalName)
+   at POS.Class.Hardware.POSCashDrawerManager.ReInitializeDrawer() at 4:16:36 PM
+-----------------------
+[Memory Usage] : Allocation : 74728kb Message : Post Transaction at 4:16:37 PM
+-----------------------
+[Status] : Commit transaction finished. at 4:16:37 PM
+-----------------------
+[Status] : Open Shift Close at 4:16:45 PM
+-----------------------
+[Status] : Open Spot Check at 4:17:00 PM
+-----------------------
+[Status] : Open Shift Close at 4:17:28 PM
+-----------------------
+[Status] : Openning required connections at 4:18:51 PM
+-----------------------
+[Status] : Openned 0 number of connections at 4:18:51 PM
+-----------------------
+[Status] : Shift close committed. at 4:21:42 PM
+-----------------------
+[Status] : End Process starting. at 4:21:46 PM
+-----------------------
+[Status] : End of Day at 4:21:46 PM
+-----------------------
+[Status] : Openning required connections at 4:21:51 PM
+-----------------------
+[Status] : Openned 0 number of connections at 4:21:51 PM
+-----------------------
+[Error] : Message : Reading from the stream has failed. 
+ StackTrace :    at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadOk(Boolean read)
+   at MySql.Data.MySqlClient.NativeDriver.SetDatabase(String dbName)
+   at MySql.Data.MySqlClient.Driver.SetDatabase(String dbName)
+   at MySql.Data.MySqlClient.MySqlConnection.ChangeDatabase(String databaseName)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at POS.Class.POSDBConnection.ConnectOnline() at 4:40:25 PM
+-----------------------
+[Status] : Connection restored. at 4:40:29 PM
+-----------------------
+[Error] : Message : Unable to connect to any of the specified MySQL hosts. 
+ StackTrace :    at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at POS.Class.POSDBConnection.ConnectOnline() at 4:40:35 PM
+-----------------------
+[Status] : Connection restored. at 4:54:46 PM
+-----------------------
