@@ -1,0 +1,214 @@
+14:56:38 | Set time : time 2019/4/5 6:56:38.0
+14:56:38 | An item with the same key has already been added.
+14:56:43 | Initializing ASSEMBLY STATION (4/5/2019 12:00:00 AM as business date).
+14:56:43 | KDS PRINT (#76) config does not exist!
+14:56:43 | KDS Item Print set to False
+14:56:51 | Turning on panel 1
+14:56:52 | Turning on panel 2
+14:56:52 | Turning on panel 3
+14:56:52 | Turning on panel 4
+14:56:53 | DISPLAYING 2-4271 to panel 1
+14:56:53 | DISPLAYING 2-4272 to panel 2
+14:56:53 | DISPLAYING 2-4273 to panel 3
+14:56:53 | DISPLAYING 2-4274 to panel 4
+14:57:00 | Printed: 2-4271
+14:57:00 | Bumped out: 2-4271 at panel 1
+14:57:01 | Printed: 2-4272
+14:57:01 | Bumped out: 2-4272 at panel 2
+14:57:02 | DISPLAYING 1-4275 to panel 1
+14:57:02 | DISPLAYING 1-4276 to panel 2
+14:57:02 | Printed: 2-4273
+14:57:02 | Bumped out: 2-4273 at panel 3
+14:57:03 | Printed: 2-4274
+14:57:03 | Bumped out: 2-4274 at panel 4
+14:57:04 | Printed: 1-4275
+14:57:04 | Bumped out: 1-4275 at panel 1
+14:57:05 | Printed: 1-4276
+14:57:05 | Bumped out: 1-4276 at panel 2
+13:33:32 | DISPLAYING 1-4286 to panel 1
+13:34:07 | DISPLAYING 2-4287 to panel 2
+13:34:39 | Printed: 2-4287
+13:34:39 | Bumped out: 2-4287 at panel 2
+13:34:41 | Printed: 1-4286
+13:34:41 | Bumped out: 1-4286 at panel 1
+13:34:49 | DISPLAYING 1-4288 to panel 1
+13:34:51 | DISPLAYING 2-4289 to panel 2
+13:35:13 | Printed: 2-4289
+13:35:13 | Bumped out: 2-4289 at panel 2
+13:35:19 | VOIDED: 1-4288
+13:35:22 | Bumped out: 1-4288 at panel 1
+14:13:03 | DISPLAYING 2-4296 to panel 1
+14:13:32 | Printed: 2-4296
+14:13:32 | Bumped out: 2-4296 at panel 1
+14:14:30 | DISPLAYING 2-4297 to panel 1
+14:14:50 | CHANGED: 2-4297
+14:19:50 | Printed: 2-4297
+14:19:50 | Bumped out: 2-4297 at panel 1
+14:20:53 | DISPLAYING 2-4298 to panel 1
+14:21:06 | Printed: 2-4298
+14:21:06 | Bumped out: 2-4298 at panel 1
+14:25:00 | DISPLAYING 2-4299 to panel 1
+14:25:11 | DISPLAYING 2-4300 to panel 2
+14:28:50 | Printed: 2-4299
+14:28:50 | Bumped out: 2-4299 at panel 1
+14:28:51 | Printed: 2-4300
+14:28:51 | Bumped out: 2-4300 at panel 2
+14:30:50 | DISPLAYING 2-4301 to panel 1
+14:33:00 | DISPLAYING 1-4302 to panel 2
+16:19:14 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18:50:48 | KDS is shutting down...

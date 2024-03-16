@@ -1,0 +1,93 @@
+10:10:48 | Set time : time 2019/5/6 2:10:48.0
+10:14:07 | Initializing ASSEMBLY STATION (5/6/2019 12:00:00 AM as business date).
+10:14:08 | KDS PRINT (#76) config does not exist!
+10:14:08 | KDS Item Print set to False
+10:15:59 | Turning on panel 1
+10:16:00 | Turning on panel 2
+10:16:01 | Turning on panel 3
+10:16:01 | Turning on panel 4
+10:19:55 | DISPLAYING 3-4487 to panel 1
+10:20:06 | CHANGED: 3-4487
+10:20:40 | DISPLAYING 3-4488 to panel 2
+10:20:55 | Printed: 3-4488
+10:20:55 | Bumped out: 3-4488 at panel 2
+10:20:55 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:20:55 | Printed: 3-4487
+10:20:55 | Bumped out: 3-4487 at panel 1
+10:21:36 | DISPLAYING 3-4489 to panel 1
+10:21:50 | CHANGED: 3-4489
+10:21:56 | Printed: 3-4489
+10:21:56 | Bumped out: 3-4489 at panel 1
+10:22:18 | Printed: 3-4489
+10:22:18 | Bumped out: 3-4489 at panel 1
+10:22:37 | DISPLAYING 3-4490 to panel 1
+10:22:50 | CHANGED: 3-4490
+10:23:03 | Printed: 3-4490
+10:23:03 | Bumped out: 3-4490 at panel 1
+10:23:25 | DISPLAYING 3-4491 to panel 1
+10:23:32 | CHANGED: 3-4491
+10:23:54 | Printed: 3-4491
+10:23:54 | Bumped out: 3-4491 at panel 1
+10:24:10 | DISPLAYING 7-4492 to panel 1
+10:26:23 | Printed: 7-4492
+10:26:23 | Bumped out: 7-4492 at panel 1
+10:27:24 | DISPLAYING 7-4494 to panel 1
+10:27:37 | Printed: 7-4494
+10:27:37 | Bumped out: 7-4494 at panel 1
+10:43:24 | DISPLAYING 3-4498 to panel 1
+10:45:11 | DISPLAYING 3-4500 to panel 2
+10:45:46 | Printed: 3-4498
+10:45:46 | Bumped out: 3-4498 at panel 1
+10:45:46 | Printed: 3-4500
+10:45:46 | Bumped out: 3-4500 at panel 2
+10:53:50 | DISPLAYING 3-4501 to panel 1
+10:53:51 | CHANGED: 3-4501
+10:53:54 | CHANGED: 3-4501
+10:53:57 | VOIDED: 3-4501
+11:06:53 | DISPLAYING 3-4502 to panel 2
+11:39:02 | Printed: 3-4502
+11:39:02 | Bumped out: 3-4502 at panel 2
+11:39:02 | Bumped out: 3-4501 at panel 1
+15:15:02 | DISPLAYING 3-4504 to panel 1
+15:16:38 | Printed: 3-4504
+15:16:38 | Bumped out: 3-4504 at panel 1
+15:17:49 | DISPLAYING 3-4506 to panel 1
+15:18:03 | Printed: 3-4506
+15:18:03 | Bumped out: 3-4506 at panel 1
+15:18:46 | DISPLAYING 3-4507 to panel 1
+15:19:01 | Printed: 3-4507
+15:19:01 | Bumped out: 3-4507 at panel 1
+16:55:33 | DISPLAYING 3-4508 to panel 1
+16:55:43 | CHANGED: 3-4508
+16:56:45 | VOIDED: 3-4508
+16:57:08 | DISPLAYING 3-4509 to panel 2
+16:57:11 | VOIDED: 3-4509
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18:17:59 | KDS is shutting down...

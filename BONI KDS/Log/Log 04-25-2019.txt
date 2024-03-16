@@ -1,0 +1,91 @@
+17:49:47 | Set time : time 2019/4/25 9:49:47.0
+17:51:01 | Initializing ASSEMBLY STATION (4/25/2019 12:00:00 AM as business date).
+17:51:02 | KDS PRINT (#76) config does not exist!
+17:51:02 | KDS Item Print set to False
+17:51:21 | Turning on panel 1
+17:51:22 | Turning on panel 2
+17:51:22 | Turning on panel 3
+17:51:22 | Turning on panel 4
+17:51:23 | DISPLAYING 1-4379 to panel 1
+17:51:28 | Method ClaimDevice threw an exception.  Attempt was made to perform an illegal or unsupported operation with the device, or an invalid parameter value was used. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSTransaction(String referenceNumber)
+17:51:28 | Printed: 1-4379
+17:51:28 | Bumped out: 1-4379 at panel 1
+17:51:32 | KDS is shutting down...
+17:53:56 | Set time : time 2019/4/25 9:53:56.0
+17:53:59 | Initializing ASSEMBLY STATION (4/25/2019 12:00:00 AM as business date).
+17:53:59 | KDS PRINT (#76) config does not exist!
+17:53:59 | KDS Item Print set to False
+17:54:04 | Turning on panel 1
+17:54:05 | Turning on panel 2
+17:54:05 | Turning on panel 3
+17:54:06 | Turning on panel 4
+17:54:23 | DISPLAYING 1-4380 to panel 1
+17:54:33 | Printed: 1-4380
+17:54:33 | Bumped out: 1-4380 at panel 1
+18:03:53 | DISPLAYING 1-4381 to panel 1
+18:04:33 | Printed: 1-4381
+18:04:33 | Bumped out: 1-4381 at panel 1
+18:04:52 | DISPLAYING 1-4382 to panel 1
+18:04:53 | CHANGED: 1-4382
+18:06:06 | DISPLAYING 1-4383 to panel 2
+18:06:09 | CHANGED: 1-4383
+18:06:12 | CHANGED: 1-4383
+18:07:02 | DISPLAYING 1-4384 to panel 3
+18:07:04 | CHANGED: 1-4384
+18:07:06 | CHANGED: 1-4384
+18:08:24 | DISPLAYING 1-4385 to panel 4
+18:08:26 | CHANGED: 1-4385
+18:08:47 | Printed: 1-4382
+18:08:47 | Bumped out: 1-4382 at panel 1
+18:08:50 | Printed: 1-4383
+18:08:50 | Bumped out: 1-4383 at panel 2
+18:08:52 | Printed: 1-4384
+18:08:52 | Bumped out: 1-4384 at panel 3
+18:08:53 | Printed: 1-4385
+18:08:53 | Bumped out: 1-4385 at panel 4
+18:09:20 | DISPLAYING 1-4386 to panel 1
+18:09:22 | CHANGED: 1-4386
+18:09:23 | CHANGED: 1-4386
+18:09:25 | CHANGED: 1-4386
+18:09:27 | CHANGED: 1-4386
+18:09:53 | Printed: 1-4386
+18:09:53 | Bumped out: 1-4386 at panel 1
+18:09:56 | DISPLAYING 1-4387 to panel 1
+18:09:57 | CHANGED: 1-4387
+18:10:00 | CHANGED: 1-4387
+18:10:04 | CHANGED: 1-4387
+18:10:26 | DISPLAYING 1-4388 to panel 2
+18:11:33 | DISPLAYING 1-4389 to panel 3
+18:11:47 | DISPLAYING 1-4390 to panel 4
+18:11:49 | CHANGED: 1-4390
+18:11:51 | CHANGED: 1-4390
+18:11:52 | CHANGED: 1-4390
+18:11:53 | CHANGED: 1-4390
+18:11:54 | CHANGED: 1-4390
+18:11:56 | CHANGED: 1-4390
+18:11:57 | CHANGED: 1-4390
+18:12:09 | Printed: 1-4387
+18:12:09 | Bumped out: 1-4387 at panel 1
+18:12:10 | Printed: 1-4388
+18:12:10 | Bumped out: 1-4388 at panel 2
+18:12:11 | Printed: 1-4389
+18:12:11 | Bumped out: 1-4389 at panel 3
+18:12:11 | Printed: 1-4390
+18:12:11 | Bumped out: 1-4390 at panel 4
+18:12:12 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+18:14:11 | DISPLAYING 1-4391 to panel 1
+18:17:42 | DISPLAYING 1-4392 to panel 2
+18:28:01 | DISPLAYING 1-4393 to panel 3
+18:30:42 | Printed: 1-4391
+18:30:42 | Bumped out: 1-4391 at panel 1
+18:30:42 | Printed: 1-4392
+18:30:42 | Bumped out: 1-4392 at panel 2
+18:30:44 | Printed: 1-4393
+18:30:44 | Bumped out: 1-4393 at panel 3
+18:33:40 | KDS is shutting down...

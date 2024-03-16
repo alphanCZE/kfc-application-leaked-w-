@@ -1,0 +1,149 @@
+09:51:34 | Set time : time 2019/4/22 1:51:34.0
+09:51:40 | Initializing ASSEMBLY STATION (4/22/2019 12:00:00 AM as business date).
+09:51:40 | KDS PRINT (#76) config does not exist!
+09:51:40 | KDS Item Print set to False
+09:51:41 | Could not find Printer with Logical name: PUnit1
+09:51:46 | Turning on panel 1
+09:51:46 | Turning on panel 2
+09:51:47 | Turning on panel 3
+09:51:49 | Turning on panel 4
+09:52:04 | DISPLAYING 1-4363 to panel 1
+09:52:16 | Object reference not set to an instance of an object. at    at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+09:52:16 | App crash: 
+Message: Object reference not set to an instance of an object.
+StackTrace:    at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+   at KDS.Service.AssemblyService.<>c__DisplayClass3d.<ThreadPrint>b__3b()
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)
+09:52:16 | Bumped out: 1-4363 at panel 1
+09:52:40 | DISPLAYING 1-4364 to panel 1
+09:52:51 | Object reference not set to an instance of an object. at    at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+09:52:51 | App crash: 
+Message: Object reference not set to an instance of an object.
+StackTrace:    at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+   at KDS.Service.AssemblyService.<>c__DisplayClass3d.<ThreadPrint>b__3b()
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)
+09:52:51 | Bumped out: 1-4364 at panel 1
+09:52:56 | KDS is shutting down...
+09:53:49 | Set time : time 2019/4/22 1:53:49.0
+09:53:53 | Initializing ASSEMBLY STATION (4/22/2019 12:00:00 AM as business date).
+09:53:53 | KDS PRINT (#76) config does not exist!
+09:53:53 | KDS Item Print set to False
+09:53:54 | Could not find Printer with Logical name: PUnit1
+09:54:20 | KDS is shutting down...
+09:55:15 | Set time : time 2019/4/22 1:55:15.0
+09:55:20 | Initializing ASSEMBLY STATION (4/22/2019 12:00:00 AM as business date).
+09:55:20 | KDS PRINT (#76) config does not exist!
+09:55:20 | KDS Item Print set to False
+09:55:21 | Could not find Printer with Logical name: PUnit1
+09:55:42 | Turning on panel 1
+09:55:42 | Turning on panel 2
+09:55:43 | Turning on panel 3
+09:55:44 | Turning on panel 4
+09:56:06 | KDS is shutting down...
+09:58:44 | Set time : time 2019/4/22 1:58:44.0
+09:58:48 | Initializing ASSEMBLY STATION (4/22/2019 12:00:00 AM as business date).
+09:58:48 | KDS PRINT (#76) config does not exist!
+09:58:48 | KDS Item Print set to False
+09:58:49 | Could not find Printer with Logical name: PUnit1
+09:58:53 | Turning on panel 1
+09:58:53 | Turning on panel 2
+09:58:53 | Turning on panel 3
+09:58:54 | Turning on panel 4
+09:58:58 | DISPLAYING 1-4366 to panel 1
+09:59:03 | Printed: 1-4366
+09:59:03 | Bumped out: 1-4366 at panel 1
+09:59:07 | KDS is shutting down...
+10:00:15 | Set time : time 2019/4/22 2:0:15.0
+10:00:17 | Initializing ASSEMBLY STATION (4/22/2019 12:00:00 AM as business date).
+10:00:18 | KDS PRINT (#76) config does not exist!
+10:00:18 | KDS Item Print set to False
+10:00:22 | Turning on panel 1
+10:00:22 | Turning on panel 2
+10:00:22 | Turning on panel 3
+10:00:23 | Turning on panel 4
+10:00:37 | DISPLAYING 1-4367 to panel 1
+10:00:46 | Printed: 1-4367
+10:00:46 | Bumped out: 1-4367 at panel 1
+10:00:46 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:01:15 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:01:15 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:01:17 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:01:17 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:01:17 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:01:21 | KDS is shutting down...
+10:12:19 | Set time : time 2019/4/22 2:12:19.0
+10:12:23 | Initializing ASSEMBLY STATION (4/22/2019 12:00:00 AM as business date).
+10:12:24 | KDS PRINT (#76) config does not exist!
+10:12:24 | KDS Item Print set to False
+10:12:28 | Turning on panel 1
+10:12:29 | DISPLAYING 1-4368 to panel 1
+10:12:30 | Turning on panel 2
+10:12:31 | Turning on panel 3
+10:12:31 | Turning on panel 4
+10:12:36 | VOIDED: 1-4368
+10:12:40 | DISPLAYING 1-4369 to panel 2
+10:12:42 | VOIDED: 1-4369
+10:12:53 | DISPLAYING 1-4370 to panel 3
+10:13:10 | Printed: 1-4370
+10:13:10 | Bumped out: 1-4370 at panel 3
+10:18:45 | KDS is shutting down...
+14:40:23 | Set time : time 2019/4/22 6:40:23.0
+14:47:58 | Initializing ASSEMBLY STATION (4/22/2019 12:00:00 AM as business date).
+14:47:59 | KDS PRINT (#76) config does not exist!
+14:47:59 | KDS Item Print set to False
+14:48:04 | Turning on panel 1
+14:48:05 | Turning on panel 2
+14:48:05 | Turning on panel 3
+14:48:06 | DISPLAYING 1-4371 to panel 1
+14:48:07 | Turning on panel 4
+14:48:18 | VOIDED: 1-4371
+14:48:35 | Bumped out: 1-4371 at panel 1
+14:50:05 | DISPLAYING 1-4372 to panel 1
+14:50:17 | VOIDED: 1-4372
+14:50:23 | DISPLAYING 1-4373 to panel 2
+14:50:37 | CHANGED: 1-4373
+14:51:12 | Bumped out: 1-4372 at panel 1
+14:51:44 | CHANGED: 1-4373
+14:51:59 | CHANGED: 1-4373
+14:53:57 | Method ClaimDevice threw an exception.  Attempt was made to perform an illegal or unsupported operation with the device, or an invalid parameter value was used. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSTransaction(String referenceNumber)
+14:53:57 | Printed: 1-4373
+14:53:57 | Bumped out: 1-4373 at panel 2
+14:57:09 | DISPLAYING 1-4374 to panel 1
+14:57:13 | VOIDED: 1-4374
+15:02:31 | DISPLAYING 1-4375 to panel 2
+15:02:49 | VOIDED: 1-4375
+15:12:22 | Bumped out: 1-4375 at panel 2
+15:12:24 | Bumped out: 1-4374 at panel 1

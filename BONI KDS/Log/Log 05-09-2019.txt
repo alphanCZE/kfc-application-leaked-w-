@@ -1,0 +1,47 @@
+17:45:35 | Set time : time 2019/5/9 9:45:35.0
+17:45:38 | Initializing ASSEMBLY STATION (05/09/2019 12:00:00 AM as business date).
+17:45:38 | KDS PRINT (#76) config does not exist!
+17:45:38 | KDS Item Print set to False
+17:45:44 | Turning on panel 1
+17:45:44 | Turning on panel 2
+17:45:45 | Turning on panel 3
+17:45:45 | Turning on panel 4
+17:45:45 | DISPLAYING 3-4522 to panel 1
+17:45:45 | DISPLAYING 3-4523 to panel 2
+17:45:45 | DISPLAYING 3-4524 to panel 3
+17:45:46 | DISPLAYING 3-4525 to panel 4
+17:45:48 | Printed: 3-4522
+17:45:48 | Bumped out: 3-4522 at panel 1
+17:45:49 | Printed: 3-4523
+17:45:49 | Bumped out: 3-4523 at panel 2
+17:45:50 | Printed: 3-4524
+17:45:50 | Bumped out: 3-4524 at panel 3
+17:45:50 | DISPLAYING 3-4526 to panel 1
+17:45:53 | Printed: 3-4525
+17:45:53 | Bumped out: 3-4525 at panel 4
+17:45:55 | Printed: 3-4526
+17:45:55 | Bumped out: 3-4526 at panel 1
+17:47:35 | DISPLAYING 3-4527 to panel 1
+17:47:53 | VOIDED: 3-4527
+17:48:30 | DISPLAYING 3-4528 to panel 2
+17:48:40 | CHANGED: 3-4528
+17:48:52 | CHANGED: 3-4528
+17:48:53 | CHANGED: 3-4528
+17:48:54 | CHANGED: 3-4528
+17:48:56 | VOIDED: 3-4528
+17:49:07 | DISPLAYING 3-4529 to panel 3
+17:49:26 | CHANGED: 3-4529
+17:52:43 | DISPLAYING 3-4530 to panel 4
+17:53:08 | Bumped out: 3-4528 at panel 2
+17:53:10 | Bumped out: 3-4527 at panel 1
+17:53:15 | Printed: 3-4529
+17:53:15 | Bumped out: 3-4529 at panel 3
+17:53:31 | CHANGED: 3-4530
+17:54:51 | DISPLAYING 3-4531 to panel 1
+17:55:45 | CHANGED: 3-4531
+17:58:24 | Printed: 3-4531
+17:58:24 | Bumped out: 3-4531 at panel 1
+17:58:27 | Printed: 3-4530
+17:58:27 | Bumped out: 3-4530 at panel 4
+18:11:04 | DISPLAYING 3-4533 to panel 1
+19:10:01 | KDS is shutting down...

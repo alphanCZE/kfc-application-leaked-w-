@@ -1,0 +1,4 @@
+16:33:04 | Set time : time 2019/3/19 8:33:4.0
+18:37:33 | Initializing ASSEMBLY STATION (3/19/2019 12:00:00 AM as business date).
+18:37:34 | KDS Item Print set to True
+18:37:59 | KDS is shutting down...

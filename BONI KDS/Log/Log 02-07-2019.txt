@@ -1,0 +1,28 @@
+09:55:00 | Initializing ASSEMBLY STATION (2/7/2019 12:00:00 AM as business date).
+09:55:01 | KDS Item Print set to True
+09:55:06 | Turning on panel 1
+09:55:07 | Turning on panel 2
+09:55:08 | DISPLAYING 3-3921 to panel 1
+09:55:09 | Turning on panel 3
+09:55:09 | Turning on panel 4
+
+
+
+
+
+11:41:28 | DISPLAYING 3-3923 to panel 2
+13:20:11 | DISPLAYING 3-3924 to panel 3
+13:20:21 | DISPLAYING 3-3925 to panel 4
+13:20:23 | CHANGED: 3-3925
+13:20:32 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+13:20:32 | Printed: 3-3925
+13:20:32 | Bumped out: 3-3925 at panel 4
+13:20:32 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+13:20:32 | Printed: 3-3924
+13:20:32 | Bumped out: 3-3924 at panel 3
+17:45:56 | DISPLAYING 3-3926 to panel 3
+17:46:37 | DISPLAYING 3-3927 to panel 4
+17:46:39 | CHANGED: 3-3927
+18:09:20 | KDS is shutting down...

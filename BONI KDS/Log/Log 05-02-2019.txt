@@ -1,0 +1,461 @@
+09:14:18 | Set time : time 2019/5/2 1:14:18.0
+09:14:22 | Initializing ASSEMBLY STATION (5/2/2019 12:00:00 AM as business date).
+09:14:22 | KDS PRINT (#76) config does not exist!
+09:14:22 | KDS Item Print set to False
+09:14:27 | Turning on panel 1
+09:14:28 | Turning on panel 2
+09:14:28 | Turning on panel 3
+09:14:29 | Turning on panel 4
+09:15:32 | DISPLAYING 3-4407 to panel 1
+09:15:40 | Printed: 3-4407
+09:15:40 | Bumped out: 3-4407 at panel 1
+09:16:48 | DISPLAYING 3-4408 to panel 1
+09:16:56 | Printed: 3-4408
+09:16:56 | Bumped out: 3-4408 at panel 1
+10:05:04 | DISPLAYING 3-4411 to panel 1
+10:05:26 | Printed: 3-4411
+10:05:26 | Bumped out: 3-4411 at panel 1
+10:17:01 | DISPLAYING 3-4412 to panel 1
+10:17:12 | Printed: 3-4412
+10:17:12 | Bumped out: 3-4412 at panel 1
+10:19:43 | DISPLAYING 3-4413 to panel 1
+10:19:49 | Printed: 3-4413
+10:19:49 | Bumped out: 3-4413 at panel 1
+10:20:01 | DISPLAYING 3-4414 to panel 1
+10:20:16 | Printed: 3-4414
+10:20:16 | Bumped out: 3-4414 at panel 1
+10:22:06 | DISPLAYING 3-4415 to panel 1
+10:22:17 | Printed: 3-4415
+10:22:17 | Bumped out: 3-4415 at panel 1
+10:23:37 | DISPLAYING 3-4416 to panel 1
+10:23:51 | Printed: 3-4416
+10:23:51 | Bumped out: 3-4416 at panel 1
+10:25:33 | DISPLAYING 3-4417 to panel 1
+10:25:35 | CHANGED: 3-4417
+10:26:07 | DISPLAYING 3-4418 to panel 2
+10:26:12 | Printed: 3-4417
+10:26:12 | Bumped out: 3-4417 at panel 1
+10:26:14 | Printed: 3-4418
+10:26:14 | Bumped out: 3-4418 at panel 2
+10:26:52 | DISPLAYING 3-4419 to panel 1
+10:28:12 | DISPLAYING 3-4420 to panel 2
+10:28:25 | Printed: 3-4420
+10:28:25 | Bumped out: 3-4420 at panel 2
+10:28:43 | Printed: 3-4419
+10:28:43 | Bumped out: 3-4419 at panel 1
+10:29:12 | DISPLAYING 3-4421 to panel 1
+10:29:24 | DISPLAYING 3-4423 to panel 2
+10:29:26 | DISPLAYING 3-4422 to panel 3
+10:29:35 | Printed: 3-4421
+10:29:35 | Bumped out: 3-4421 at panel 1
+10:29:37 | Printed: 3-4423
+10:29:37 | Bumped out: 3-4423 at panel 2
+10:29:38 | Printed: 3-4422
+10:29:38 | Bumped out: 3-4422 at panel 3
+10:49:52 | DISPLAYING 3-4424 to panel 1
+10:50:00 | Printed: 3-4424
+10:50:00 | Bumped out: 3-4424 at panel 1
+10:50:16 | DISPLAYING 3-4425 to panel 1
+10:50:40 | DISPLAYING 3-4426 to panel 2
+10:50:40 | DISPLAYING 3-4427 to panel 3
+10:50:45 | Printed: 3-4426
+10:50:45 | Bumped out: 3-4426 at panel 2
+10:52:19 | DISPLAYING 3-4428 to panel 2
+10:52:29 | Printed: 3-4428
+10:52:29 | Bumped out: 3-4428 at panel 2
+10:52:31 | Printed: 3-4425
+10:52:31 | Bumped out: 3-4425 at panel 1
+10:52:32 | Printed: 3-4427
+10:52:32 | Bumped out: 3-4427 at panel 3
+10:53:03 | DISPLAYING 3-4429 to panel 1
+10:53:07 | DISPLAYING 3-4430 to panel 2
+10:53:11 | Printed: 3-4430
+10:53:11 | Bumped out: 3-4430 at panel 2
+10:53:12 | Printed: 3-4429
+10:53:12 | Bumped out: 3-4429 at panel 1
+10:53:17 | DISPLAYING 3-4431 to panel 1
+10:53:22 | Printed: 3-4431
+10:53:22 | Bumped out: 3-4431 at panel 1
+11:10:41 | DISPLAYING 3-4432 to panel 1
+11:10:45 | DISPLAYING 3-4433 to panel 2
+11:10:50 | DISPLAYING 3-4434 to panel 3
+11:10:55 | DISPLAYING 3-4435 to panel 4
+11:11:16 | Printed: 3-4432
+11:11:16 | Bumped out: 3-4432 at panel 1
+11:11:16 | DISPLAYING 3-4436 to panel 1
+11:11:16 | Printed: 3-4433
+11:11:16 | Bumped out: 3-4433 at panel 2
+11:11:17 | Printed: 3-4434
+11:11:17 | Bumped out: 3-4434 at panel 3
+11:11:17 | DISPLAYING 3-4437 to panel 2
+11:11:17 | DISPLAYING 3-4438 to panel 3
+11:11:18 | Printed: 3-4435
+11:11:18 | Bumped out: 3-4435 at panel 4
+11:11:18 | Printed: 3-4436
+11:11:18 | Bumped out: 3-4436 at panel 1
+11:11:18 | DISPLAYING 3-4439 to panel 4
+11:11:19 | Printed: 3-4437
+11:11:19 | Bumped out: 3-4437 at panel 2
+11:11:19 | Printed: 3-4438
+11:11:19 | Bumped out: 3-4438 at panel 3
+11:11:20 | Printed: 3-4439
+11:11:20 | Bumped out: 3-4439 at panel 4
+11:24:47 | DISPLAYING 3-4440 to panel 1
+11:24:52 | DISPLAYING 3-4441 to panel 2
+11:24:57 | DISPLAYING 3-4442 to panel 3
+11:25:01 | DISPLAYING 3-4443 to panel 4
+11:25:16 | Printed: 3-4440
+11:25:16 | Bumped out: 3-4440 at panel 1
+11:25:16 | DISPLAYING 3-4444 to panel 1
+11:25:17 | Printed: 3-4441
+11:25:17 | Bumped out: 3-4441 at panel 2
+11:25:17 | Printed: 3-4442
+11:25:17 | Bumped out: 3-4442 at panel 3
+11:25:17 | DISPLAYING 3-4445 to panel 2
+11:25:17 | DISPLAYING 3-4446 to panel 3
+11:25:18 | Printed: 3-4443
+11:25:18 | Bumped out: 3-4443 at panel 4
+11:25:19 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+11:25:20 | Printed: 3-4444
+11:25:20 | Bumped out: 3-4444 at panel 1
+11:25:20 | Printed: 3-4445
+11:25:20 | Bumped out: 3-4445 at panel 2
+11:25:21 | Printed: 3-4446
+11:25:21 | Bumped out: 3-4446 at panel 3
+11:27:05 | DISPLAYING 3-4447 to panel 1
+11:27:09 | DISPLAYING 3-4448 to panel 2
+11:27:13 | DISPLAYING 3-4449 to panel 3
+11:27:17 | DISPLAYING 3-4450 to panel 4
+11:27:33 | Printed: 3-4447
+11:27:33 | Bumped out: 3-4447 at panel 1
+11:27:34 | Printed: 3-4448
+11:27:34 | Bumped out: 3-4448 at panel 2
+11:27:34 | DISPLAYING 3-4451 to panel 1
+11:27:34 | DISPLAYING 3-4452 to panel 2
+11:27:34 | Printed: 3-4449
+11:27:34 | Bumped out: 3-4449 at panel 3
+11:27:35 | DISPLAYING 3-4453 to panel 3
+11:27:35 | Printed: 3-4450
+11:27:35 | Bumped out: 3-4450 at panel 4
+11:27:35 | Printed: 3-4451
+11:27:35 | Bumped out: 3-4451 at panel 1
+11:27:36 | Printed: 3-4452
+11:27:36 | Bumped out: 3-4452 at panel 2
+11:27:36 | Printed: 3-4453
+11:27:36 | Bumped out: 3-4453 at panel 3
+11:44:11 | DISPLAYING 3-4454 to panel 1
+11:44:40 | DISPLAYING 3-4455 to panel 2
+11:44:44 | DISPLAYING 3-4456 to panel 3
+11:44:48 | DISPLAYING 3-4457 to panel 4
+11:44:56 | Printed: 3-4454
+11:44:56 | Bumped out: 3-4454 at panel 1
+11:44:57 | DISPLAYING 3-4458 to panel 1
+11:44:57 | Printed: 3-4455
+11:44:57 | Bumped out: 3-4455 at panel 2
+11:44:58 | Printed: 3-4456
+11:44:58 | Bumped out: 3-4456 at panel 3
+11:45:00 | Printed: 3-4457
+11:45:00 | Bumped out: 3-4457 at panel 4
+11:45:01 | Printed: 3-4458
+11:45:01 | Bumped out: 3-4458 at panel 1
+12:07:58 | An error occurred while executing the command definition. See the inner exception for details. at    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass3.<GetResults>b__2()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass3.<GetResults>b__1()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Database.Fusion.KDSContext.GetSystemDate() in d:\Work\CURRENT\KDS\branch\kds-1.8.1_dual_pantry\Database.Fusion\KDSContext.cs:line 142
+   at KDS.DataAccess.TransactionRepository.GetTransactionsForAssembly(DateTime businessDate)
+   at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13:40:00 | DISPLAYING 3-4459 to panel 1
+13:40:03 | Printed: 3-4459
+13:40:03 | Bumped out: 3-4459 at panel 1
+13:40:34 | DISPLAYING 3-4460 to panel 1
+13:40:36 | CHANGED: 3-4460
+13:40:53 | Printed: 3-4460
+13:40:53 | Bumped out: 3-4460 at panel 1
+13:41:26 | DISPLAYING 3-4461 to panel 1
+13:41:44 | Printed: 3-4461
+13:41:44 | Bumped out: 3-4461 at panel 1
+14:47:16 | DISPLAYING 3-4462 to panel 1
+14:47:30 | DISPLAYING 3-4463 to panel 2
+14:49:36 | DISPLAYING 3-4464 to panel 3
+14:50:44 | DISPLAYING 3-4465 to panel 4
+14:51:20 | Printed: 3-4462
+14:51:20 | Bumped out: 3-4462 at panel 1
+14:51:21 | DISPLAYING 3-4466 to panel 1
+14:51:21 | Printed: 3-4463
+14:51:21 | Bumped out: 3-4463 at panel 2
+14:51:21 | Printed: 3-4464
+14:51:21 | Bumped out: 3-4464 at panel 3
+14:51:22 | Printed: 3-4465
+14:51:22 | Bumped out: 3-4465 at panel 4
+14:51:23 | Printed: 3-4466
+14:51:23 | Bumped out: 3-4466 at panel 1
+14:53:24 | DISPLAYING 3-4467 to panel 1
+14:53:25 | CHANGED: 3-4467
+18:43:17 | KDS is shutting down...

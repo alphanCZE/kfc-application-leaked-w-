@@ -1,0 +1,74 @@
+10:08:43 | Set time : time 2019/4/4 2:8:43.0
+10:08:43 | An item with the same key has already been added.
+10:08:58 | Initializing ASSEMBLY STATION (4/3/2019 12:00:00 AM as business date).
+10:09:00 | KDS PRINT (#76) config does not exist!
+10:09:00 | KDS Item Print set to False
+10:10:42 | Turning on panel 1
+10:10:42 | Turning on panel 2
+10:10:43 | Turning on panel 3
+10:10:44 | Turning on panel 4
+10:10:46 | KDS is shutting down...
+10:11:06 | Set time : time 2019/4/4 2:11:6.0
+10:11:06 | An item with the same key has already been added.
+10:11:11 | Initializing ASSEMBLY STATION (4/4/2019 12:00:00 AM as business date).
+10:11:12 | KDS PRINT (#76) config does not exist!
+10:11:12 | KDS Item Print set to False
+10:11:17 | Turning on panel 2
+10:11:18 | Turning on panel 1
+10:11:18 | Turning on panel 3
+10:11:19 | Turning on panel 4
+10:11:25 | DISPLAYING 1-4258 to panel 1
+10:11:40 | Printed: 1-4258
+10:11:40 | Bumped out: 1-4258 at panel 1
+10:11:40 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:11:40 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:11:40 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:31:24 | DISPLAYING 1-4259 to panel 1
+10:31:30 | Printed: 1-4259
+10:31:30 | Bumped out: 1-4259 at panel 1
+10:56:18 | DISPLAYING 1-4260 to panel 1
+10:57:10 | VOIDED: 1-4260
+10:57:17 | DISPLAYING 1-4261 to panel 2
+10:58:02 | DISPLAYING 1-4262 to panel 3
+10:58:30 | DISPLAYING 1-4263 to panel 4
+11:03:28 | Printed: 1-4261
+11:03:28 | Bumped out: 1-4261 at panel 2
+11:03:29 | DISPLAYING 1-4264 to panel 2
+11:03:43 | Printed: 1-4262
+11:03:43 | Bumped out: 1-4262 at panel 3
+11:03:44 | DISPLAYING 2-4265 to panel 3
+11:03:49 | Printed: 1-4263
+11:03:49 | Bumped out: 1-4263 at panel 4
+11:03:50 | DISPLAYING 2-4266 to panel 4
+11:03:51 | Printed: 2-4265
+11:03:51 | Bumped out: 2-4265 at panel 3
+11:03:52 | DISPLAYING 2-4268 to panel 3
+11:03:52 | Printed: 1-4264
+11:03:52 | Bumped out: 1-4264 at panel 2
+11:03:53 | Printed: 2-4266
+11:03:53 | Bumped out: 2-4266 at panel 4
+11:22:49 | VOIDED: 2-4268
+11:41:17 | DISPLAYING 1-4269 to panel 2
+14:51:22 | Printed: 1-4269
+14:51:22 | Bumped out: 1-4269 at panel 2
+14:51:24 | Bumped out: 2-4268 at panel 3
+14:51:26 | Bumped out: 1-4260 at panel 1
+17:42:13 | DISPLAYING 1-4270 to panel 1
+17:42:20 | Printed: 1-4270
+17:42:20 | Bumped out: 1-4270 at panel 1
+19:02:46 | KDS is shutting down...

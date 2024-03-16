@@ -1,0 +1,190 @@
+11:21:40 | Set time : time 2019/2/27 3:21:40.0
+11:33:01 | Initializing ASSEMBLY STATION (2/27/2019 12:00:00 AM as business date).
+11:33:02 | KDS Item Print set to True
+11:33:06 | Turning on panel 1
+11:33:07 | Turning on panel 2
+11:33:07 | Turning on panel 3
+11:33:07 | Turning on panel 4
+11:41:39 | DISPLAYING 2-4049 to panel 1
+11:41:55 | Setting Panel 4 to Power Off state.
+11:41:56 | Setting Panel 3 to Power Off state.
+11:41:57 | Setting Panel 2 to Power Off state.
+11:42:10 | DISPLAYING 2-4050 to panel 1
+11:42:45 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+11:42:45 | Printed: 2-4050
+11:42:45 | Bumped out: 2-4050 at panel 1
+11:42:46 | DISPLAYING 2-4051 to panel 1
+11:43:17 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+11:43:17 | Printed: 2-4051
+11:43:17 | Bumped out: 2-4051 at panel 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14:00:31 | Setting Panel 1 to Power Off state.
+14:00:31 | Turning on panel 2
+14:00:52 | Turning on panel 4
+14:13:08 | Turning on panel 1
+14:13:09 | Turning on panel 3
+14:13:13 | KDS is shutting down...
+14:13:30 | Set time : time 2019/2/27 6:13:30.0
+14:13:36 | Initializing ASSEMBLY STATION (2/27/2019 12:00:00 AM as business date).
+14:13:36 | KDS Item Print set to True
+14:13:40 | Turning on panel 2
+14:13:40 | Turning on panel 3
+14:13:40 | Turning on panel 4
+14:13:41 | Turning on panel 1
+14:49:36 | KDS is shutting down...
+15:10:39 | Set time : time 2019/2/27 7:10:39.0
+15:10:51 | Initializing ASSEMBLY STATION (2/27/2019 12:00:00 AM as business date).
+15:10:51 | KDS Item Print set to True
+15:10:55 | Turning on panel 1
+15:10:55 | Turning on panel 2
+15:10:56 | Turning on panel 3
+15:10:57 | Turning on panel 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18:41:45 | KDS is shutting down...

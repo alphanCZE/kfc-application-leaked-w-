@@ -1,0 +1,353 @@
+09:59:55 | Initializing ASSEMBLY STATION (2/11/2019 12:00:00 AM as business date).
+09:59:55 | Object reference not set to an instance of an object. at    at KDS.DataAccess.MonitorRepository.GetAssemblyBackIp()
+09:59:56 | KDS Item Print set to True
+10:00:12 | Turning on panel 1
+10:00:13 | Turning on panel 2
+10:00:13 | Turning on panel 3
+10:00:14 | DISPLAYING 3-3962 to panel 1
+10:00:15 | Turning on panel 4
+10:00:18 | Printed: 3-3962
+10:00:18 | Printed: 3-3962
+10:00:22 | Value cannot be null.
+Parameter name: hostNameOrAddress at    at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress)
+   at KDS.Service.AssemblyService.assembly2IsOnline()
+   at KDS.Service.AssemblyService.OTFPrint(Int32 position, Boolean willClaim)
+   at KDS.Service.AssemblyService.BumpOut(Int32 position, String referenceNumber)
+10:00:25 | Value cannot be null.
+Parameter name: hostNameOrAddress at    at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress)
+   at KDS.Service.AssemblyService.assembly2IsOnline()
+   at KDS.Service.AssemblyService.OTFPrint(Int32 position, Boolean willClaim)
+   at KDS.Service.AssemblyService.BumpOut(Int32 position, String referenceNumber)
+10:00:32 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:00:36 | Value cannot be null.
+Parameter name: hostNameOrAddress at    at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress)
+   at KDS.Service.AssemblyService.assembly2IsOnline()
+   at KDS.Service.AssemblyService.OTFPrint(Int32 position, Boolean willClaim)
+   at KDS.Service.AssemblyService.BumpOut(Int32 position, String referenceNumber)
+10:00:44 | KDS is shutting down...
+10:01:12 | Initializing ASSEMBLY STATION (2/12/2019 12:00:00 AM as business date).
+10:01:13 | Object reference not set to an instance of an object. at    at KDS.DataAccess.MonitorRepository.GetAssemblyBackIp()
+10:01:13 | KDS Item Print set to True
+10:01:31 | Turning on panel 1
+10:01:32 | Turning on panel 2
+10:01:33 | Turning on panel 3
+10:01:35 | Turning on panel 4
+10:02:33 | Setting Panel 1 to Power Off state.
+10:02:34 | Turning on panel 1
+10:02:35 | Setting Panel 2 to Power Off state.
+10:02:36 | Turning on panel 2
+10:04:17 | DISPLAYING 2-3966 to panel 1
+10:04:31 | Printed: 2-3966
+10:04:32 | Value cannot be null.
+Parameter name: hostNameOrAddress at    at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress)
+   at KDS.Service.AssemblyService.assembly2IsOnline()
+   at KDS.Service.AssemblyService.OTFPrint(Int32 position, Boolean willClaim)
+   at KDS.Service.AssemblyService.BumpOut(Int32 position, String referenceNumber)
+10:04:41 | Value cannot be null.
+Parameter name: hostNameOrAddress at    at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress)
+   at KDS.Service.AssemblyService.assembly2IsOnline()
+   at KDS.Service.AssemblyService.OTFPrint(Int32 position, Boolean willClaim)
+   at KDS.Service.AssemblyService.BumpOut(Int32 position, String referenceNumber)
+10:04:44 | Printed: 2-3966
+10:04:45 | Printed: 2-3966
+10:04:47 | Value cannot be null.
+Parameter name: hostNameOrAddress at    at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress)
+   at KDS.Service.AssemblyService.assembly2IsOnline()
+   at KDS.Service.AssemblyService.OTFPrint(Int32 position, Boolean willClaim)
+   at KDS.Service.AssemblyService.BumpOut(Int32 position, String referenceNumber)
+10:04:47 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:47 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:47 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:47 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:47 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:48 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:48 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:48 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:48 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:48 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:49 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:49 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:49 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:49 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:50 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:50 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:50 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:50 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:50 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:51 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:51 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:04:52 | Printed: 2-3966
+10:04:54 | Value cannot be null.
+Parameter name: hostNameOrAddress at    at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress)
+   at KDS.Service.AssemblyService.assembly2IsOnline()
+   at KDS.Service.AssemblyService.OTFPrint(Int32 position, Boolean willClaim)
+   at KDS.Service.AssemblyService.BumpOut(Int32 position, String referenceNumber)
+10:05:53 | Printed: 2-3966
+10:06:00 | Value cannot be null.
+Parameter name: hostNameOrAddress at    at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress)
+   at KDS.Service.AssemblyService.assembly2IsOnline()
+   at KDS.Service.AssemblyService.OTFPrint(Int32 position, Boolean willClaim)
+   at KDS.Service.AssemblyService.BumpOut(Int32 position, String referenceNumber)
+10:06:00 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:06:00 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:06:00 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:06:03 | Printed: 2-3966
+10:06:18 | KDS is shutting down...
+10:07:04 | Initializing ASSEMBLY STATION (2/12/2019 12:00:00 AM as business date).
+10:07:05 | KDS Item Print set to True
+10:07:15 | Turning on panel 1
+10:07:15 | Turning on panel 2
+10:07:16 | Turning on panel 3
+10:07:16 | Turning on panel 4
+10:09:30 | DISPLAYING 3-3967 to panel 1
+10:09:34 | Printed: 3-3967
+10:09:37 | Printed: 3-3967
+10:09:37 | Bumped out: 3-3967 at panel 1
+10:09:45 | DISPLAYING 3-3968 to panel 2
+10:09:46 | Bumped out: 3-3967 at panel 1
+10:09:56 | Printed: 3-3968
+10:09:58 | Printed: 3-3968
+10:09:58 | Bumped out: 3-3968 at panel 2
+10:13:23 | KDS is shutting down...
+10:13:45 | Initializing ASSEMBLY STATION (2/12/2019 12:00:00 AM as business date).
+10:13:46 | KDS PRINT (#76) config does not exist!
+10:13:46 | KDS Item Print set to False
+10:13:50 | Turning on panel 1
+10:13:50 | Turning on panel 2
+10:13:50 | Turning on panel 3
+10:13:50 | Turning on panel 4
+10:17:06 | DISPLAYING 3-3969 to panel 1
+10:17:20 | Printed: 3-3969
+10:17:20 | Bumped out: 3-3969 at panel 1
+10:17:31 | DISPLAYING 3-3970 to panel 1
+10:17:40 | DISPLAYING 2-3971 to panel 2
+10:17:50 | Printed: 3-3970
+10:17:50 | Bumped out: 3-3970 at panel 1
+10:17:58 | CHANGED: 2-3971
+10:18:02 | CHANGED: 2-3971
+10:18:09 | Printed: 2-3971
+10:18:09 | Bumped out: 2-3971 at panel 2
+10:18:33 | DISPLAYING 2-3972 to panel 1
+10:18:39 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:18:41 | Printed: 2-3972
+10:18:41 | Bumped out: 2-3972 at panel 1
+10:19:42 | KDS is shutting down...
+10:21:17 | Initializing ASSEMBLY STATION (2/12/2019 12:00:00 AM as business date).
+10:21:17 | KDS Item Print set to True
+10:21:21 | Turning on panel 1
+10:21:21 | Turning on panel 2
+10:21:23 | Turning on panel 3
+10:21:23 | Turning on panel 4
+10:21:35 | DISPLAYING 2-3973 to panel 1
+10:21:43 | Printed: 2-3973
+10:21:43 | Bumped out: 2-3973 at panel 1
+10:21:57 | DISPLAYING 2-3974 to panel 1
+10:22:06 | Printed: 2-3974
+10:22:06 | Bumped out: 2-3974 at panel 1
+10:22:12 | DISPLAYING 2-3975 to panel 1
+10:22:24 | CHANGED: 2-3975
+10:22:32 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:22:33 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+10:22:35 | Printed: 2-3975
+10:22:35 | Bumped out: 2-3975 at panel 1
+10:31:21 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:21 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:22 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:22 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:23 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:23 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:24 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:24 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:25 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:25 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:26 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:27 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:27 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:28 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:28 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:29 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:29 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:30 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:30 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:31 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:31 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:32 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:32 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:33 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:33 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:34 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:34 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:35 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:36 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:36 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:37 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:37 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:38 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:38 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:39 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:39 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:40 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:40 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:41 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:41 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:42 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:42 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+10:31:43 | Object reference not set to an instance of an object. at    at KDS.Service.AssemblyService.UpdateKitchenDisplay()
+13:47:31 | DISPLAYING 3-3976 to panel 1
+14:29:07 | DISPLAYING 2-3977 to panel 2
+14:29:18 | CHANGED: 2-3977
+15:07:48 | DISPLAYING 2-3985 to panel 3
+15:50:16 | CHANGED: 2-3985
+15:50:18 | VOIDED: 2-3985
+15:51:12 | DISPLAYING 2-3986 to panel 4
+16:49:32 | Printed: 2-3977
+16:49:35 | Printed: 2-3986
+18:16:56 | KDS is shutting down...

@@ -1,0 +1,76 @@
+09:46:26 | Set time : time 2019/3/12 1:46:26.0
+09:46:31 | Initializing ASSEMBLY STATION (3/12/2019 12:00:00 AM as business date).
+09:46:32 | KDS Item Print set to True
+09:46:36 | Turning on panel 1
+09:46:36 | Turning on panel 2
+09:46:36 | Turning on panel 3
+09:46:37 | Turning on panel 4
+11:44:40 | DISPLAYING 2-4066 to panel 1
+14:15:48 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+14:15:49 | Printed: 2-4066
+14:15:49 | Bumped out: 2-4066 at panel 1
+14:48:08 | KDS is shutting down...
+14:48:25 | Set time : time 2019/3/12 6:48:25.0
+14:50:19 | Initializing ASSEMBLY STATION (3/12/2019 12:00:00 AM as business date).
+14:50:19 | KDS Item Print set to True
+14:50:29 | Turning on panel 3
+14:50:29 | Turning on panel 4
+14:50:30 | Turning on panel 1
+14:50:30 | Turning on panel 2
+14:50:30 | DISPLAYING 2-4067 to panel 1
+14:50:30 | DISPLAYING 2-4068 to panel 2
+14:50:30 | DISPLAYING 2-4069 to panel 3
+14:50:30 | DISPLAYING 2-4070 to panel 4
+14:50:36 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+14:50:37 | Printed: 2-4067
+14:50:37 | Bumped out: 2-4067 at panel 1
+14:50:37 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+14:50:37 | Printed: 2-4069
+14:50:37 | Bumped out: 2-4069 at panel 3
+14:50:38 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+14:50:38 | Printed: 2-4070
+14:50:38 | Bumped out: 2-4070 at panel 4
+14:50:38 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+14:50:39 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+14:50:39 | Printed: 2-4068
+14:50:39 | Bumped out: 2-4068 at panel 2
+14:50:39 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+14:50:39 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+14:51:02 | DISPLAYING 2-4071 to panel 1
+14:51:34 | DISPLAYING 2-4072 to panel 2
+14:51:52 | DISPLAYING 2-4073 to panel 3
+
+
+
+
+
+
+14:55:36 | Unable to connect to any of the specified MySQL hosts. at    at KDS.DataAccess.DatabaseManager.GetConnection()
+   at KDS.DataAccess.TransactionRepository.ResetDisplayed(String referenceNumber, DateTime businessDate)
+
+14:55:53 | Unable to connect to any of the specified MySQL hosts. at    at KDS.DataAccess.DatabaseManager.GetConnection()
+   at KDS.DataAccess.TransactionRepository.ResetDisplayed(String referenceNumber, DateTime businessDate)
+
+14:55:53 | Unable to connect to any of the specified MySQL hosts. at    at KDS.DataAccess.DatabaseManager.GetConnection()
+   at KDS.DataAccess.TransactionRepository.ResetDisplayed(String referenceNumber, DateTime businessDate)
+

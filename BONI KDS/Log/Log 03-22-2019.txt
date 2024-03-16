@@ -1,0 +1,64 @@
+10:04:37 | Set time : time 2019/3/22 2:4:37.0
+10:04:37 | An item with the same key has already been added.
+10:04:43 | Initializing ASSEMBLY STATION (3/22/2019 12:00:00 AM as business date).
+10:04:44 | KDS Item Print set to True
+10:04:49 | Turning on panel 1
+10:04:49 | Turning on panel 2
+10:04:50 | Turning on panel 3
+10:04:50 | Turning on panel 4
+10:04:52 | Setting Panel 4 to Power Off state.
+10:04:53 | Setting Panel 3 to Power Off state.
+10:04:54 | Setting Panel 2 to Power Off state.
+10:05:30 | DISPLAYING 2-4170 to panel 1
+10:06:33 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+10:06:33 | Printed: 2-4170
+10:06:33 | Bumped out: 2-4170 at panel 1
+10:06:34 | DISPLAYING 2-4172 to panel 1
+10:07:00 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+10:07:00 | Printed: 2-4172
+10:07:00 | Bumped out: 2-4172 at panel 1
+11:10:41 | DISPLAYING 2-4174 to panel 1
+11:11:17 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+11:11:17 | Printed: 2-4174
+11:11:17 | Bumped out: 2-4174 at panel 1
+11:11:18 | DISPLAYING 2-4175 to panel 1
+11:11:42 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+11:11:42 | Printed: 2-4175
+11:11:42 | Bumped out: 2-4175 at panel 1
+11:11:48 | DISPLAYING 2-4176 to panel 1
+11:13:08 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+11:13:08 | Printed: 2-4176
+11:13:08 | Bumped out: 2-4176 at panel 1
+11:13:09 | DISPLAYING 2-4177 to panel 1
+11:13:13 | CHANGED: 2-4177
+11:14:33 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+11:14:33 | Printed: 2-4177
+11:14:33 | Bumped out: 2-4177 at panel 1
+11:14:34 | DISPLAYING 2-4178 to panel 1
+11:15:32 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+11:15:32 | Printed: 2-4178
+11:15:32 | Bumped out: 2-4178 at panel 1
+11:16:51 | DISPLAYING 2-4179 to panel 1
+11:16:52 | CHANGED: 2-4179
+11:16:58 | CHANGED: 2-4179
+11:18:02 | Printed: 2-4179
+11:18:02 | Bumped out: 2-4179 at panel 1
+11:18:48 | DISPLAYING 2-4182 to panel 1
+11:18:51 | CHANGED: 2-4182
+11:19:27 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+11:19:27 | Printed: 2-4182
+11:19:27 | Bumped out: 2-4182 at panel 1
+11:19:28 | DISPLAYING 2-4183 to panel 1
+11:19:42 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+11:19:42 | Printed: 2-4183
+11:19:42 | Bumped out: 2-4183 at panel 1
+11:24:20 | KDS is shutting down...

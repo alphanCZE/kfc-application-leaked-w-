@@ -1,0 +1,107 @@
+17:27:55 | Set time : time 2019/3/5 9:27:55.0
+17:28:21 | Initializing ASSEMBLY STATION (2/28/2019 12:00:00 AM as business date).
+17:28:22 | KDS Item Print set to True
+17:28:44 | KDS is shutting down...
+17:30:50 | Set time : time 2019/3/5 9:30:50.0
+17:30:53 | Initializing ASSEMBLY STATION (3/5/2019 12:00:00 AM as business date).
+17:30:54 | KDS Item Print set to True
+17:30:58 | Turning on panel 3
+17:30:58 | Turning on panel 4
+17:30:59 | Turning on panel 1
+17:30:59 | Turning on panel 2
+17:32:41 | DISPLAYING 2-4031 to panel 1
+17:33:06 | DISPLAYING 2-4032 to panel 2
+17:33:40 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+17:33:40 | Printed: 2-4032
+17:33:40 | Bumped out: 2-4032 at panel 2
+17:33:41 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+17:33:42 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+17:33:42 | Printed: 2-4031
+17:33:42 | Bumped out: 2-4031 at panel 1
+17:35:19 | DISPLAYING 2-4033 to panel 1
+17:35:24 | CHANGED: 2-4033
+17:36:03 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+17:36:03 | Printed: 2-4033
+17:36:03 | Bumped out: 2-4033 at panel 1
+17:36:03 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+17:36:25 | DISPLAYING 2-4034 to panel 1
+17:36:27 | CHANGED: 2-4034
+17:36:32 | CHANGED: 2-4034
+17:36:37 | CHANGED: 2-4034
+17:39:54 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+17:39:54 | Printed: 2-4034
+17:39:54 | Bumped out: 2-4034 at panel 1
+17:42:18 | DISPLAYING 2-4035 to panel 1
+17:43:02 | DISPLAYING 2-4037 to panel 2
+17:43:09 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+17:43:09 | Printed: 2-4035
+17:43:09 | Bumped out: 2-4035 at panel 1
+17:43:09 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+17:44:31 | DISPLAYING 2-4038 to panel 1
+17:44:36 | VOIDED: 2-4038
+17:44:40 | DISPLAYING 2-4039 to panel 3
+17:44:55 | CHANGED: 2-4039
+17:44:59 | CHANGED: 2-4039
+17:45:14 | CHANGED: 2-4039
+17:46:25 | DISPLAYING 2-4040 to panel 4
+17:46:26 | CHANGED: 2-4040
+17:46:27 | CHANGED: 2-4040
+17:46:28 | CHANGED: 2-4040
+17:46:29 | CHANGED: 2-4040
+17:46:30 | CHANGED: 2-4040
+17:46:31 | CHANGED: 2-4040
+17:46:31 | CHANGED: 2-4040
+17:46:32 | CHANGED: 2-4040
+17:46:33 | CHANGED: 2-4040
+17:46:34 | CHANGED: 2-4040
+17:46:35 | CHANGED: 2-4040
+17:46:36 | CHANGED: 2-4040
+17:46:37 | CHANGED: 2-4040
+17:46:38 | CHANGED: 2-4040
+17:46:38 | CHANGED: 2-4040
+17:46:51 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+17:46:52 | Printed: 2-4040
+17:46:52 | Bumped out: 2-4040 at panel 4
+17:46:53 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+17:46:54 | Printed: 2-4039
+17:46:54 | Bumped out: 2-4039 at panel 3
+17:46:54 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+17:46:55 | Method ClaimDevice threw an exception.  The Service Object timed out waiting for a response from the device, or the Control timed out waiting for a response from the Service Object. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSItems(List`1 itemList, String referenceNumber)
+17:46:55 | Printed: 2-4037
+17:46:55 | Bumped out: 2-4037 at panel 2
+17:47:14 | Bumped out: 2-4038 at panel 1
+17:47:15 | Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index at    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at KDS.ViewModel.MonitorViewModel.BumpOut(Object parameter)
+18:15:54 | KDS is shutting down...

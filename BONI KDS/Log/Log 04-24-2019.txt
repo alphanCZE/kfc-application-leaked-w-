@@ -1,0 +1,19 @@
+08:55:46 | Set time : time 2019/4/24 0:55:46.0
+08:55:54 | Initializing ASSEMBLY STATION (4/24/2019 12:00:00 AM as business date).
+08:55:55 | KDS PRINT (#76) config does not exist!
+08:55:55 | KDS Item Print set to False
+08:56:01 | Turning on panel 1
+08:56:01 | Turning on panel 2
+08:56:02 | Turning on panel 3
+08:56:02 | Turning on panel 4
+08:56:09 | DISPLAYING 1-4377 to panel 1
+08:56:24 | Method ClaimDevice threw an exception.  Attempt was made to perform an illegal or unsupported operation with the device, or an invalid parameter value was used. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSTransaction(String referenceNumber)
+08:56:24 | Printed: 1-4377
+08:56:24 | Bumped out: 1-4377 at panel 1
+08:56:31 | DISPLAYING 1-4378 to panel 1
+08:56:32 | CHANGED: 1-4378
+08:56:43 | Method ClaimDevice threw an exception.  Attempt was made to perform an illegal or unsupported operation with the device, or an invalid parameter value was used. at    at KDS.Hardware.Printer.Initialize()
+   at KDS.Hardware.KDSPrintManager.PrintKDSTransaction(String referenceNumber)
+08:56:44 | Printed: 1-4378
+08:56:44 | Bumped out: 1-4378 at panel 1

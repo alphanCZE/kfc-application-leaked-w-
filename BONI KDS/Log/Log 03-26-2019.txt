@@ -1,0 +1,289 @@
+09:30:15 | Set time : time 2019/3/26 1:30:15.0
+09:30:15 | An item with the same key has already been added.
+09:32:48 | Initializing ASSEMBLY STATION (3/25/2019 12:00:00 AM as business date).
+09:32:49 | KDS Item Print set to True
+09:32:59 | KDS is shutting down...
+09:38:26 | Set time : time 2019/3/26 1:38:26.0
+09:38:26 | An item with the same key has already been added.
+09:38:38 | Initializing ASSEMBLY STATION (3/26/2019 12:00:00 AM as business date).
+09:38:39 | KDS Item Print set to True
+09:38:51 | Turning on panel 1
+09:38:52 | Turning on panel 2
+09:38:52 | Turning on panel 3
+09:38:53 | Turning on panel 4
+09:39:07 | DISPLAYING 2-4194 to panel 1
+09:39:37 | Printed: 2-4194
+09:39:37 | Bumped out: 2-4194 at panel 1
+09:39:59 | DISPLAYING 2-4195 to panel 1
+09:40:55 | CHANGED: 2-4195
+09:42:58 | Printed: 2-4195
+09:42:58 | Bumped out: 2-4195 at panel 1
+09:43:19 | DISPLAYING 2-4196 to panel 1
+09:44:10 | CHANGED: 2-4196
+09:44:40 | Printed: 2-4196
+09:44:40 | Bumped out: 2-4196 at panel 1
+09:46:00 | DISPLAYING 2-4197 to panel 1
+09:46:03 | VOIDED: 2-4197
+09:46:29 | Bumped out: 2-4197 at panel 1
+09:46:35 | DISPLAYING 2-4198 to panel 1
+09:46:42 | CHANGED: 2-4198
+09:47:03 | CHANGED: 2-4198
+09:47:46 | Printed: 2-4198
+09:47:46 | Bumped out: 2-4198 at panel 1
+09:49:16 | Setting Panel 2 to Power Off state.
+09:49:17 | Setting Panel 3 to Power Off state.
+09:49:19 | Setting Panel 4 to Power Off state.
+09:49:23 | DISPLAYING 2-4199 to panel 1
+09:49:59 | Printed: 2-4199
+09:49:59 | Bumped out: 2-4199 at panel 1
+13:18:37 | An error occurred while executing the command definition. See the inner exception for details. at    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass3.<GetResults>b__2()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass3.<GetResults>b__1()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at KDS.DataAccess.MonitorRepository.HasDisplayedOrders()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14:41:52 | Turning on panel 2
+14:41:52 | Turning on panel 3
+14:41:52 | Turning on panel 4
+15:15:15 | KDS is shutting down...
